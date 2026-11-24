@@ -415,14 +415,14 @@
         h('span', { class: 'card-name', text: st.name }),
         h('span', { class: 'card-meta' }, count, confPill(st.confidence, false))));
     applyAccent(a, pal);
-    return { li: h('li', null, a), link: a, count: count, total: n };
+    return { li: h('li', { class: 'reveal' }, a), link: a, count: count, total: n };
   }
 
   function homeSection(st, pal) {
     var list = trackList(st);
     var n = (st.tracks || []).length;
     var headId = 'all-' + st.slug;
-    var sec = h('section', { class: 'station-block' + (isSecondary(st) ? ' station-block--secondary' : ''), 'aria-labelledby': headId },
+    var sec = h('section', { class: 'station-block reveal' + (isSecondary(st) ? ' station-block--secondary' : ''), 'aria-labelledby': headId },
       h('div', { class: 'station-block-head' },
         badge(st, pal, 36),
         h('h3', { id: headId }, h('a', { href: stationHref(st), text: st.name })),
@@ -581,7 +581,7 @@
     var st = bySlug.get(slug);
 
     if (!st) {
-      view.appendChild(h('div', { class: 'not-found' },
+      view.appendChild(h('div', { class: 'wrap not-found' },
         h('h1', { class: 'page-title', id: 'station-title', tabindex: '-1', text: 'Station not found' }),
         h('p', null, 'There is no station with the address \u201c' + slug + '\u201d.'),
         h('p', null, h('a', { href: '#/', text: '\u2190 Back to all stations' }))));
@@ -597,13 +597,20 @@
     var crumbs = h('nav', { class: 'crumbs', 'aria-label': 'Breadcrumb' },
       h('a', { href: '#/', class: 'back-link', text: '\u2190 All stations' }));
 
-    var hero = h('header', { class: 'hero' },
-      badge(st, pal, 120),
-      h('div', { class: 'hero-text' },
-        h('p', { class: 'hero-kicker', text: isSecondary(st) ? 'Talk' : 'Station' }),
-        h('h1', { class: 'hero-title', id: 'station-title', tabindex: '-1', text: st.name }),
-        n ? h('p', { class: 'hero-meta' }, h('span', { text: trackCount(n) }), confPill(st.confidence, true)) : null,
-        conf ? h('p', { class: 'hero-conf-note' }, conf.label + ' confidence: ' + conf.note) : null));
+    // Full-width band in the station's own colour, with a large badge.
+    var heroBadge = badge(st, pal, 160);
+    heroBadge.classList.add('station-hero-badge');
+    var hero = h('header', { class: 'station-hero' },
+      h('div', { class: 'station-hero-rings', 'aria-hidden': 'true' }),
+      h('div', { class: 'wrap station-hero-inner' },
+        crumbs,
+        h('div', { class: 'station-hero-main' },
+          heroBadge,
+          h('div', { class: 'hero-text' },
+            h('p', { class: 'hero-kicker', text: isSecondary(st) ? 'Talk' : 'Station' }),
+            h('h1', { class: 'hero-title', id: 'station-title', tabindex: '-1', text: st.name }),
+            n ? h('p', { class: 'hero-meta' }, h('span', { text: trackCount(n) }), confPill(st.confidence, true)) : null,
+            conf ? h('p', { class: 'hero-conf-note' }, conf.label + ' confidence: ' + conf.note) : null))));
 
     var list = trackList(st);
     var inputId = 'station-q';
@@ -644,14 +651,19 @@
       h('a', { class: 'pager-all', href: '#/', text: 'Back to all stations' }),
       pagerLink(stations[idx + 1], 'next'));
 
-    view.appendChild(crumbs);
-    view.appendChild(hero);
-    view.appendChild(renderAbout(st));
+    var body = h('div', { class: 'wrap station-body' });
+    var about = renderAbout(st);
     var mix = renderMix(st);
-    if (mix) view.appendChild(mix);
-    view.appendChild(tracksSection);
-    view.appendChild(renderSuggest(st));
-    view.appendChild(pager);
+    var suggest = renderSuggest(st);
+    [about, mix, suggest, pager].forEach(function (el) { if (el) el.classList.add('reveal'); });
+    body.appendChild(about);
+    if (mix) body.appendChild(mix);
+    body.appendChild(tracksSection);
+    body.appendChild(suggest);
+    body.appendChild(pager);
+
+    view.appendChild(hero);
+    view.appendChild(body);
     return { title: st.name };
   }
 
@@ -690,7 +702,7 @@
     var list = $('contribute-forms');
     FORMS.forEach(function (f, i) {
       var headId = 'form-' + (i + 1);
-      list.appendChild(h('li', { class: 'form-card', 'aria-labelledby': headId },
+      list.appendChild(h('li', { class: 'form-card reveal', 'aria-labelledby': headId },
         h('h3', { id: headId, text: f.name }),
         h('p', { text: f.desc }),
         h('a', {
@@ -741,6 +753,13 @@
     else nav.removeAttribute('aria-current');
     var previous = currentView;
     currentView = id;
+    // Browsers without view transitions get a short fade/slide on the new view instead.
+    if (!firstRoute && previous !== id && motionOK() && !document.startViewTransition) {
+      var el = $(id);
+      el.classList.remove('view-enter');
+      void el.offsetWidth; // restart the animation (one layout read per navigation)
+      el.classList.add('view-enter');
+    }
     return previous;
   }
 
@@ -759,6 +778,7 @@
     if (currentView === 'view-home') homeScroll = window.scrollY;
     var res = renderStation(slug);
     setView('view-station');
+    observeReveals($('view-station'));
     lastStationSlug = slug;
     document.title = res.title + ' \u00b7 ' + SITE_NAME;
     window.scrollTo(0, 0);
@@ -793,6 +813,93 @@
       showHome();
     }
     firstRoute = false;
+  }
+
+  /* ---------- motion ---------- */
+
+  var reducedMotion = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : { matches: false };
+  function motionOK() { return !reducedMotion.matches; }
+  var supportsScrollTimeline = !!(window.CSS && CSS.supports &&
+    CSS.supports('animation-timeline: view()') && CSS.supports('animation-timeline: scroll()'));
+  var revealObserver = null;
+
+  /* Scroll effects are pure CSS (scroll-driven animations) where supported. Elsewhere,
+     an IntersectionObserver reveals sections and one rAF-throttled scroll handler
+     writes the hero's progress to a custom property. Nothing runs with reduced motion. */
+  function setupMotion() {
+    if (supportsScrollTimeline || !motionOK()) return;
+    var root = document.documentElement;
+    root.classList.add('no-sda');
+
+    if ('IntersectionObserver' in window) {
+      root.classList.add('js-reveal');
+      revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) { en.target.classList.add('is-in'); revealObserver.unobserve(en.target); }
+        });
+      }, { rootMargin: '0px 0px -6% 0px' });
+      observeReveals(document);
+    }
+
+    var hero = $('hero');
+    var vh = window.innerHeight;
+    var queued = false;
+    function update() {
+      queued = false;
+      var p = Math.min(1, Math.max(0, window.scrollY / (vh * 0.75)));
+      hero.style.setProperty('--p', p.toFixed(3));
+    }
+    window.addEventListener('scroll', function () {
+      if (!queued) { queued = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    window.addEventListener('resize', function () { vh = window.innerHeight; update(); }, { passive: true });
+    update();
+  }
+
+  function observeReveals(scope) {
+    if (!revealObserver || !scope) return;
+    Array.prototype.forEach.call(scope.querySelectorAll('.reveal:not(.is-in)'), function (el) {
+      revealObserver.observe(el);
+    });
+  }
+
+  function stationFromHash(hash) {
+    var m = /^#\/station\/([^/?#]+)\/?$/.exec(hash);
+    if (!m) return null;
+    try { return decodeURIComponent(m[1]); } catch (e) { return m[1]; }
+  }
+
+  function cardBadge(slug) {
+    return slug ? document.querySelector('.card[data-slug="' + cssEscape(slug) + '"] .badge') : null;
+  }
+
+  function heroBadgeEl() {
+    return document.querySelector('#view-station .station-hero-badge');
+  }
+
+  /* Route changes run inside a view transition where supported: the page cross-fades
+     and the station badge morphs between its card and the station page hero. */
+  function navigate() {
+    if (!document.startViewTransition || !motionOK()) { route(); return; }
+    var fromView = currentView;
+    var fromSlug = lastStationSlug;
+    var toSlug = stationFromHash(location.hash);
+    var src = fromView === 'view-station' ? heroBadgeEl() : (toSlug ? cardBadge(toSlug) : null);
+    if (src && src.closest('[hidden]')) src = null;
+    if (src) src.style.setProperty('view-transition-name', 'station-badge');
+    var dest = null;
+    var vt = document.startViewTransition(function () {
+      if (src) src.style.removeProperty('view-transition-name');
+      route();
+      if (src) {
+        dest = currentView === 'view-station' ? heroBadgeEl()
+          : (currentView === 'view-home' && fromView === 'view-station' ? cardBadge(fromSlug) : null);
+        if (dest && dest.closest('[hidden]')) dest = null;
+        if (dest) dest.style.setProperty('view-transition-name', 'station-badge');
+      }
+    });
+    var clear = function () { if (dest) dest.style.removeProperty('view-transition-name'); };
+    vt.finished.then(clear, clear);
   }
 
   // In-page anchors such as #main and #top: move focus without touching the route.
@@ -838,10 +945,13 @@
       totalTracks += (st.tracks || []).length;
     });
     $('site-stats').textContent = plural(stations.length, 'section', 'sections') + ' \u00b7 ' + plural(totalTracks, 'track', 'tracks');
+    $('hero-stations').textContent = stations.length.toLocaleString('en');
+    $('hero-tracks').textContent = totalTracks.toLocaleString('en');
     buildHome();
     buildContribute();
+    setupMotion();
     $('load-state').hidden = true;
-    window.addEventListener('hashchange', route);
+    window.addEventListener('hashchange', navigate);
     route();
   }
 

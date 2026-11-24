@@ -197,18 +197,24 @@ def render_markdown(stations):
     def section(name):
         v = stations[name]
         conf = v[0]["confidence"]
-        first, second = ("Artist", "Title") if v[0]["kind"] == "music" else ("Show", "Episode")
+        music = v[0]["kind"] == "music"
         has_second = any(r["title"].strip() for r in v)
-        head = f"| {first} | {second} | Listen |" if has_second else f"| {first} | Listen |"
+        if music:      # title first, then artist
+            head = "| Title | Artist | Listen |"
+        else:
+            head = "| Show | Episode | Listen |" if has_second else "| Show | Listen |"
         out = ["", f"### {name}", "",
                f"> {count(name)} · Confidence **{conf}**: {short.get((conf, v[0]['kind']), meaning.get(conf, conf))}", "",
-               head, "|---|---|---|" if has_second else "|---|---|"]
+               head, "|---|---|---|" if (music or has_second) else "|---|---|"]
         for r in v:
             l, exact = r["links"], r["exact"]
             mark = lambda key: "" if key in exact else " 🔍"
             listen = (f"[Spotify{mark('spotify')}]({l['spotify']}) · [YT Music 🔍]({l['youtube_music']}) · "
                       f"[Apple{mark('apple_music')}]({l['apple_music']})")
-            cols = [cell(r["artist_display"])] + ([cell(r["title"])] if has_second else []) + [listen]
+            if music:
+                cols = [cell(r["title"]), cell(r["artist_display"]), listen]
+            else:
+                cols = [cell(r["artist_display"])] + ([cell(r["title"])] if has_second else []) + [listen]
             out.append("| " + " | ".join(cols) + " |")
         out += ["", "[↑ Back to contents](#contents)"]
         return out
