@@ -396,6 +396,14 @@
         h('span', { class: 'feature-section', text: isTalk(st) ? 'Talk and podcasts' : 'Music' })),
       h('h1', { class: 'feature-name', id: 'station-title', tabindex: '-1', text: st.name })));
 
+    // A slim bar that follows the reader down the page once the big title has scrolled away.
+    // It repeats what the page already says, so it's hidden from screen readers and out of the tab order.
+    var desc = info.summary || [info.genre, info.host].filter(Boolean).join(' · ');
+    view.appendChild(h('div', { class: 'station-bar', 'aria-hidden': 'true' },
+      h('a', { class: 'sb-back', href: '#/', tabindex: '-1', title: 'All stations' }, h('span', { text: '←' })),
+      h('span', { class: 'sb-name', text: st.name }),
+      desc ? h('span', { class: 'sb-desc', text: desc }) : null));
+
     // Facts column
     var facts = [['Host', str(info.host)], ['Genre', str(info.genre)], ['Frequency', str(info.frequency)]]
       .filter(function (f) { return f[1]; });
@@ -456,7 +464,25 @@
       h('a', { class: 'pager-home', href: '#/' }, h('span', { class: 'pager-dir', text: 'Back to' }), h('span', { class: 'pager-name', text: 'All stations' })),
       prev ? h('a', { class: 'pager-prev', href: stationHref(prev), rel: 'prev' }, h('span', { class: 'pager-dir', text: 'Previous' }), h('span', { class: 'pager-name', text: prev.name })) : h('span'),
       next ? h('a', { class: 'pager-next', href: stationHref(next), rel: 'next' }, h('span', { class: 'pager-dir', text: 'Next' }), h('span', { class: 'pager-name', text: next.name })) : h('span')));
+    watchStationBar(view);
     return { title: st.name };
+  }
+
+  var barObserver = null;
+  function watchStationBar(view) {
+    if (barObserver) { barObserver.disconnect(); barObserver = null; }
+    var bar = view.querySelector('.station-bar'), top = view.querySelector('.feature-top');
+    if (!bar || !top) return;
+    function set(on) { bar.classList.toggle('is-on', on); }
+    if ('IntersectionObserver' in window) {
+      barObserver = new IntersectionObserver(function (entries) {
+        var e = entries[0];
+        set(!e.isIntersecting && e.boundingClientRect.bottom < 0);
+      }, { threshold: 0 });
+      barObserver.observe(top);
+    } else {
+      window.addEventListener('scroll', function () { set(top.getBoundingClientRect().bottom < 0); }, { passive: true });
+    }
   }
 
   /* ---------- contribute ---------- */
