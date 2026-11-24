@@ -391,7 +391,9 @@
     var conf = n ? CONFIDENCE[st.confidence] : null;
 
     view.appendChild(h('div', { class: 'feature-top' },
-      h('p', { class: 'feature-kind' }, h('a', { href: '#/', text: 'Listings' }), ' / ', isTalk(st) ? 'Talk and podcasts' : 'Music'),
+      h('p', { class: 'feature-kind' },
+        h('a', { class: 'back-link', href: '#/' }, h('span', { class: 'back-arrow', 'aria-hidden': 'true', text: '←' }), 'All stations'),
+        h('span', { class: 'feature-section', text: isTalk(st) ? 'Talk and podcasts' : 'Music' })),
       h('h1', { class: 'feature-name', id: 'station-title', tabindex: '-1', text: st.name })));
 
     // Facts column
@@ -451,6 +453,7 @@
 
     var i = stations.indexOf(st), prev = stations[i - 1], next = stations[i + 1];
     view.appendChild(h('nav', { class: 'pager', 'aria-label': 'More stations' },
+      h('a', { class: 'pager-home', href: '#/' }, h('span', { class: 'pager-dir', text: 'Back to' }), h('span', { class: 'pager-name', text: 'All stations' })),
       prev ? h('a', { class: 'pager-prev', href: stationHref(prev), rel: 'prev' }, h('span', { class: 'pager-dir', text: 'Previous' }), h('span', { class: 'pager-name', text: prev.name })) : h('span'),
       next ? h('a', { class: 'pager-next', href: stationHref(next), rel: 'next' }, h('span', { class: 'pager-dir', text: 'Next' }), h('span', { class: 'pager-name', text: next.name })) : h('span')));
     return { title: st.name };
