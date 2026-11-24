@@ -1,6 +1,6 @@
 # VI Radio DB
 
-The radio stations in Grand Theft Auto VI and what plays on them: the artist and title of every track, from the Xbox Series build 1.0.2.1.
+The radio stations in Grand Theft Auto VI and what plays on them: the artist and title of every track.
 
 **[Browse the stations on the website →](https://rgvxsthi.github.io/vi-radio-db/)**
 

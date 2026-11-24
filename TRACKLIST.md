@@ -1,6 +1,6 @@
 # GTA VI radio tracklist
 
-Every radio station in Grand Theft Auto VI (Xbox Series build 1.0.2.1) with its artists and titles: 854 entries in 22 music stations, plus podcasts and talk shows. Names only.
+Every radio station in Grand Theft Auto VI with its artists and titles: 854 entries in 22 music stations, plus podcasts and talk shows. Names only.
 
 - **Confidence** says how sure the station match is: **high** = the record order and the artists' genre agree, or the names match outright (podcasts); **medium** = one source of evidence only, or no on-screen station name found; **low** = a best guess from the artists' genre. See [how the stations were matched](README.md#how-the-stations-were-matched).
 - **Listen** links go straight to the track on Spotify or Apple Music when a confident match was found. Links marked 🔍 open a search for the artist and title instead (YouTube Music always does), so check the result.

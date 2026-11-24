@@ -221,7 +221,7 @@ def render_markdown(stations):
 
     md = [
         "# GTA VI radio tracklist", "",
-        f"Every radio station in Grand Theft Auto VI (Xbox Series build 1.0.2.1) with its artists and titles: "
+        f"Every radio station in Grand Theft Auto VI with its artists and titles: "
         f"{total} entries in {len(music)} music stations, plus podcasts and talk shows. "
         "Names only.", "",
         "- **Confidence** says how sure the station match is: "
