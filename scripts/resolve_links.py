@@ -72,6 +72,10 @@ def http_json(url, headers=None, data=None, tries=6):
         except urllib.error.HTTPError as e:
             if e.code in (429, 403, 500, 502, 503) and attempt < tries - 1:
                 wait = int(e.headers.get("Retry-After") or 0) or min(60, 5 * 2 ** attempt)
+                if wait > 300:                                 # a long ban: stop instead of hanging for hours
+                    sys.exit(f"rate-limited by {urllib.parse.urlsplit(url).netloc} for {wait} s; "
+                             "progress is saved in links.json, rerun later")
+                print(f"  waiting {wait} s (HTTP {e.code})", flush=True)
                 time.sleep(wait)
                 continue
             raise
