@@ -1,0 +1,62 @@
+name: "Podcast or talk show"
+description: "A missing or wrong podcast episode or talk show, or a link to listen to one."
+title: "[Podcast / talk] "
+labels: ["podcast / talk"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Names and links only, please: **no lyrics, no audio files, no game files**. Screenshots of the in-game radio screen are fine.
+  - type: dropdown
+    id: station
+    attributes:
+      label: "Podcast or talk station"
+      options:
+        - "The Wipe"
+        - "WKTT"
+        - "Podcasts"
+        - "Other / not listed"
+    validations:
+      required: true
+  - type: input
+    id: show
+    attributes:
+      label: "Show"
+    validations:
+      required: true
+  - type: input
+    id: episode
+    attributes:
+      label: "Episode (if any)"
+    validations:
+      required: false
+  - type: dropdown
+    id: what
+    attributes:
+      label: "What's this about?"
+      options:
+        - "Missing show or episode"
+        - "Wrong name"
+        - "A link to listen"
+        - "Something else"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: "Link (if any)"
+    validations:
+      required: false
+  - type: textarea
+    id: source
+    attributes:
+      label: "Source"
+      description: "How do you know? A link (wiki page, video with a timestamp, official soundtrack list), or what you saw in the game (station, time of day, a screenshot)."
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Anything else?"
+    validations:
+      required: false

@@ -1,0 +1,76 @@
+name: "Station details"
+description: "Hosts, genre, frequency, a station with no or only part of its track list, or a full-station mix on YouTube."
+title: "[Station] "
+labels: ["station info"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Names and links only, please: **no lyrics, no audio files, no game files**. Screenshots of the in-game radio screen are fine.
+  - type: dropdown
+    id: station
+    attributes:
+      label: "Station"
+      options:
+        - "AfroBank FM"
+        - "Back Country Radio"
+        - "Circoloco Records Radio"
+        - "Cocoteo FM"
+        - "Dirty South Classics"
+        - "Emotion 98.3"
+        - "Flash FM"
+        - "Gloriana Blues Radio"
+        - "Honey FM"
+        - "Kaleidoscope FM"
+        - "Leonida Jazz Radio"
+        - "Radio La Ola"
+        - "Radio On-U"
+        - "Stockyard FM"
+        - "Symphony FM"
+        - "The Chamber 106.6"
+        - "The Sniper of La Perle"
+        - "The Vault Radio"
+        - "V-Rock"
+        - "VCRR"
+        - "Vice City FM"
+        - "Worldwide FM"
+        - "Thrillbilly Mud Club Radio"
+        - "The Wipe"
+        - "WKTT"
+        - "Podcasts"
+        - "A station that isn't listed"
+    validations:
+      required: true
+  - type: dropdown
+    id: what
+    attributes:
+      label: "What do you want to add or fix?"
+      options:
+        - "Host or DJ"
+        - "Genre"
+        - "Frequency"
+        - "Missing or incomplete track list"
+        - "Full-station mix on YouTube"
+        - "Something else"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details"
+      description: "For a YouTube mix, paste the video link and say who uploaded it. Official uploads are preferred."
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: "Source"
+      description: "How do you know? A link (wiki page, video with a timestamp, official soundtrack list), or what you saw in the game (station, time of day, a screenshot)."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Anything else?"
+    validations:
+      required: false

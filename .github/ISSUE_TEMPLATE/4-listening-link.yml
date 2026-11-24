@@ -1,0 +1,83 @@
+name: "Listening link"
+description: "A Spotify, Apple Music or YouTube Music link is wrong, or you found the exact track for a search link."
+title: "[Link] "
+labels: ["link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Names and links only, please: **no lyrics, no audio files, no game files**. Screenshots of the in-game radio screen are fine.
+  - type: dropdown
+    id: station
+    attributes:
+      label: "Station"
+      options:
+        - "AfroBank FM"
+        - "Back Country Radio"
+        - "Circoloco Records Radio"
+        - "Cocoteo FM"
+        - "Dirty South Classics"
+        - "Emotion 98.3"
+        - "Flash FM"
+        - "Gloriana Blues Radio"
+        - "Honey FM"
+        - "Kaleidoscope FM"
+        - "Leonida Jazz Radio"
+        - "Radio La Ola"
+        - "Radio On-U"
+        - "Stockyard FM"
+        - "Symphony FM"
+        - "The Chamber 106.6"
+        - "The Sniper of La Perle"
+        - "The Vault Radio"
+        - "V-Rock"
+        - "VCRR"
+        - "Vice City FM"
+        - "Worldwide FM"
+        - "Thrillbilly Mud Club Radio"
+        - "The Wipe"
+        - "WKTT"
+        - "Podcasts"
+    validations:
+      required: true
+  - type: input
+    id: track
+    attributes:
+      label: "Track"
+      placeholder: "Artist - Title"
+    validations:
+      required: true
+  - type: dropdown
+    id: service
+    attributes:
+      label: "Service"
+      options:
+        - "Spotify"
+        - "Apple Music"
+        - "YouTube Music"
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: "What's wrong?"
+      options:
+        - "Opens the wrong song"
+        - "Opens a different version (live, remix, cover)"
+        - "Search only: here's the exact track"
+        - "Link is broken"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: "Correct link"
+      description: "The track's own page, e.g. https://open.spotify.com/track/…"
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Anything else?"
+    validations:
+      required: false

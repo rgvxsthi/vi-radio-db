@@ -1,0 +1,66 @@
+name: "Missing song"
+description: "A song plays on a station but isn't in the list."
+title: "[Missing song] "
+labels: ["missing song"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Names and links only, please: **no lyrics, no audio files, no game files**. Screenshots of the in-game radio screen are fine.
+  - type: dropdown
+    id: station
+    attributes:
+      label: "Station"
+      options:
+        - "AfroBank FM"
+        - "Back Country Radio"
+        - "Circoloco Records Radio"
+        - "Cocoteo FM"
+        - "Dirty South Classics"
+        - "Emotion 98.3"
+        - "Flash FM"
+        - "Gloriana Blues Radio"
+        - "Honey FM"
+        - "Kaleidoscope FM"
+        - "Leonida Jazz Radio"
+        - "Radio La Ola"
+        - "Radio On-U"
+        - "Stockyard FM"
+        - "Symphony FM"
+        - "The Chamber 106.6"
+        - "The Sniper of La Perle"
+        - "The Vault Radio"
+        - "V-Rock"
+        - "VCRR"
+        - "Vice City FM"
+        - "Worldwide FM"
+        - "Thrillbilly Mud Club Radio"
+        - "Other / not listed"
+    validations:
+      required: true
+  - type: input
+    id: artist
+    attributes:
+      label: "Artist"
+      placeholder: "e.g. Gloria Estefan"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: "Title"
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: "Source"
+      description: "How do you know? A link (wiki page, video with a timestamp, official soundtrack list), or what you saw in the game (station, time of day, a screenshot)."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Anything else?"
+    validations:
+      required: false

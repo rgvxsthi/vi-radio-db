@@ -1,0 +1,678 @@
+{
+  "AfroBank FM": {
+    "summary": "Pan-African station mixing Afrobeats and amapiano with older highlife and disco, hosted by Burna Boy and Berlin DJ Palms Trax.",
+    "host": "Burna Boy (as Burna) and Palms Trax (as Palmsy)",
+    "genre": "African music: classics to amapiano and 3-step",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Rockstar Newswire: The Music of Grand Theft Auto VI: In-Game Radio Stations (8 Oct 2026)",
+        "url": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+      },
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: AfroBank FM",
+        "url": "https://gta.wiki/w/AfroBank_FM"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "MP1st: GTA 6 Radio Stations Info Revealed, On-Demand Podcasts Confirmed",
+        "url": "https://mp1st.com/news/gta-6-radio-stations-info-revealed-on-demand-podcasts-confirmedcan-be-listened-on-foot"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Back Country Radio": {
+    "summary": "Classic country, hosted by Morgan Wallen (as MW) and Lana Del Rey (as Delta Dawne). Jeremy Dufrene appears as Mud Dog Mike, a roving swamp weather reporter.",
+    "host": "Morgan Wallen (as MW), Lana Del Rey (as Delta Dawne) and Jeremy Dufrene (as Mud Dog Mike)",
+    "genre": "Renegade country",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Rockstar Newswire: The Music of Grand Theft Auto VI: In-Game Radio Stations (8 Oct 2026)",
+        "url": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+      },
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Back Country Radio",
+        "url": "https://gta.wiki/w/Back_Country_Radio"
+      },
+      {
+        "label": "GamingBolt: GTA 6 Features Bad Bunny and Lana Del Rey as Radio Station Hosts",
+        "url": "https://gamingbolt.com/gta-6-features-bad-bunny-and-lana-del-rey-as-radio-station-hosts"
+      },
+      {
+        "label": "MP1st: GTA 6 Radio Stations Info Revealed, On-Demand Podcasts Confirmed",
+        "url": "https://mp1st.com/news/gta-6-radio-stations-info-revealed-on-demand-podcasts-confirmedcan-be-listened-on-foot"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Circoloco Records Radio": {
+    "summary": "Club music from Rockstar's collaboration with the Ibiza party brand CircoLoco, hosted by Seth Troxler and Antonio Carbonaro.",
+    "host": "Seth Troxler (as DJ Seth) and Antonio Carbonaro (as DJ Antonio)",
+    "genre": "House / club",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: CircoLoco Records Radio",
+        "url": "https://gta.wiki/w/CircoLoco_Records_Radio"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Cocoteo FM": {
+    "summary": "Reggaeton, dembow and bachata, hosted by Bad Bunny (as El Martillo) and RaiNao (as La Gata).",
+    "host": "Bad Bunny (as El Martillo) and RaiNao (as La Gata)",
+    "genre": "Modern Latin: reggaeton, dembow, bachata, merengue",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Rockstar Newswire: The Music of Grand Theft Auto VI: In-Game Radio Stations (8 Oct 2026)",
+        "url": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+      },
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Cocoteo FM",
+        "url": "https://gta.wiki/w/Cocoteo_FM"
+      },
+      {
+        "label": "GamingBolt: GTA 6 Features Bad Bunny and Lana Del Rey as Radio Station Hosts",
+        "url": "https://gamingbolt.com/gta-6-features-bad-bunny-and-lana-del-rey-as-radio-station-hosts"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Dirty South Classics": {
+    "summary": "Southern hip-hop classics, hosted by Miami rappers Trick Daddy and Trina. Gucci Mane hosts a segment called The Tap In.",
+    "host": "Trina and Trick Daddy; Gucci Mane hosts The Tap In",
+    "genre": "Regional rap and hip-hop classics",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Rockstar Newswire: The Music of Grand Theft Auto VI: In-Game Radio Stations (8 Oct 2026)",
+        "url": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+      },
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Dirty South Classics",
+        "url": "https://gta.wiki/w/Dirty_South_Classics"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Emotion 98.3": {
+    "summary": "A returning GTA station playing soft-rock classics, hosted by comedian Doug Stanhope as Doug Van Dyke.",
+    "host": "Doug Stanhope (as Doug Van Dyke)",
+    "genre": "Soft rock",
+    "frequency": "98.3 (part of the station name)",
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Emotion 98.3",
+        "url": "https://gta.wiki/w/Emotion_98.3"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Flash FM": {
+    "summary": "Modern pop hits; Rockstar positions it as the present-day counterpart to Vice City FM. Hosted by Robyn and Alex Consani.",
+    "host": "Robyn and Alex Consani",
+    "genre": "Modern pop",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Rockstar Newswire: The Music of Grand Theft Auto VI: In-Game Radio Stations (8 Oct 2026)",
+        "url": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+      },
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Flash FM",
+        "url": "https://gta.wiki/w/Flash_FM"
+      },
+      {
+        "label": "GamingBolt: GTA 6 Features Bad Bunny and Lana Del Rey as Radio Station Hosts",
+        "url": "https://gamingbolt.com/gta-6-features-bad-bunny-and-lana-del-rey-as-radio-station-hosts"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Gloriana Blues Radio": {
+    "summary": "Blues standards from across the genre, hosted by Buddy Guy and Keith Richards.",
+    "host": "Buddy Guy (as DJ Buddy) and Keith Richards (as DJ Keith)",
+    "genre": "Blues",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Gloriana Blues Radio",
+        "url": "https://gta.wiki/w/Gloriana_Blues_Radio"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Honey FM": {
+    "summary": "Smooth 1990s R&B, hosted by TLC's Chilli and T-Boz. A spin-off called Liquid City, hosted by Craig Robinson as Liquid Wilson, plays original parody songs.",
+    "host": "Chilli & T-Boz; Craig Robinson (as Liquid Wilson)",
+    "genre": "1990s R&B",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Honey FM",
+        "url": "https://gta.wiki/w/Honey_FM"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Kaleidoscope FM": {
+    "summary": "Singers from around the world performing their versions of pop classics. Jeremy Irons hosts as DJ Dicky. The station was kept secret before release.",
+    "host": "Jeremy Irons (as DJ Dicky)",
+    "genre": "Global pop covers",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Kaleidoscope FM",
+        "url": "https://gta.wiki/w/Kaleidoscope_FM"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Leonida Jazz Radio": {
+    "summary": "Jazz fusion, hosted by Randy Brecker and Stanley Clarke. Yussef Dayes hosts a segment called The Nook.",
+    "host": "Randy Brecker (as DJ Randy) and Stanley Clarke (as DJ Stanley); Yussef Dayes hosts The Nook",
+    "genre": "Jazz fusion",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Leonida Jazz Radio",
+        "url": "https://gta.wiki/w/Leonida_Jazz_Radio"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Radio La Ola": {
+    "summary": "Golden-age Latin classics, hosted by Gloria and Emilio Estefan.",
+    "host": "Gloria Estefan and Emilio Estefan",
+    "genre": "Classic Latin",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: La Ola",
+        "url": "https://gta.wiki/w/Radio_La_Ola"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Radio On-U": {
+    "summary": "Named after Adrian Sherwood's On-U Sound label: vintage Jamaican music from roots reggae to lovers rock, hosted by Sherwood himself.",
+    "host": "Adrian Sherwood",
+    "genre": "Reggae, dub, lovers rock",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Radio On-U",
+        "url": "https://gta.wiki/w/Radio_On-U"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Stockyard FM": {
+    "summary": "Electroclash, indietronica and leftfield pop, hosted by The Dare (as Harrison) and PinkPantheress (as Victoria). Shanny Wise of Fcukers makes a guest appearance.",
+    "host": "The Dare (as Harrison) and PinkPantheress (as Victoria)",
+    "genre": "Electroclash, indie, alternative pop",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Stockyard FM",
+        "url": "https://gta.wiki/w/Stockyard_FM"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Symphony FM": {
+    "summary": "Classical music, hosted by pianist Yuja Wang.",
+    "host": "Yuja Wang (as Yuja)",
+    "genre": "Classical",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Symphony FM",
+        "url": "https://gta.wiki/w/Symphony_FM"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "The Chamber 106.6": {
+    "summary": "Vice City's metal station, hosted by Slayer's Kerry King and Tom Araya, with comedian Brian Posehn.",
+    "host": "Kerry King (as DJ Kerry), Tom Araya (as DJ Tom) and Brian Posehn (as Big Fan Brian)",
+    "genre": "Metal",
+    "frequency": "106.6 (part of the station name)",
+    "sources": [
+      {
+        "label": "Rockstar Newswire: The Music of Grand Theft Auto VI: In-Game Radio Stations (8 Oct 2026)",
+        "url": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+      },
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: The Chamber 106.6",
+        "url": "https://gta.wiki/w/The_Chamber_106.6"
+      },
+      {
+        "label": "MP1st: GTA 6 Radio Stations Info Revealed, On-Demand Podcasts Confirmed",
+        "url": "https://mp1st.com/news/gta-6-radio-stations-info-revealed-on-demand-podcasts-confirmedcan-be-listened-on-foot"
+      },
+      {
+        "label": "GamingBolt: GTA 6 Features Bad Bunny and Lana Del Rey as Radio Station Hosts",
+        "url": "https://gamingbolt.com/gta-6-features-bad-bunny-and-lana-del-rey-as-radio-station-hosts"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "V-Rock": {
+    "summary": "Once GTA's heavy-metal station, V-Rock plays classic rock in GTA VI. Hosted by Lindsey Buckingham (as The Buck) and Michael McDonald (as Skipper McD).",
+    "host": "Lindsey Buckingham (as The Buck) and Michael McDonald (as Skipper McD)",
+    "genre": "Classic rock",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "GTA Wiki: V-Rock",
+        "url": "https://gta.wiki/w/V-Rock"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "VCRR": {
+    "summary": "Vice City Rap Radio: current rap hits, hosted by JT of City Girls and DJ Stevie J. Charlamagne tha God and Ivy Rivera's morning show, Early AF, also airs.",
+    "host": "JT (as DJ JT) and DJ Stevie J (as DJ Stevie); Charlamagne tha God and Ivy Rivera host Early AF",
+    "genre": "Modern hip-hop",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Vice City Rap Radio",
+        "url": "https://gta.wiki/w/Vice_City_Rap_Radio"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Vice City FM": {
+    "summary": "A non-stop 1980s pop station, hosted by \"Weird Al\" Yankovic (as DJ Al) and Brigitte Nielsen (as Madame Brigitte). Yankovic also wrote in-game commercials.",
+    "host": "\"Weird Al\" Yankovic (as DJ Al) and Brigitte Nielsen (as Madame Brigitte)",
+    "genre": "1980s pop",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Vice City FM",
+        "url": "https://gta.wiki/w/Vice_City_FM"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Worldwide FM": {
+    "summary": "Named after Gilles Peterson's real-life station and hosted by him: an eclectic mix of funk, soul and jazz.",
+    "host": "Gilles Peterson",
+    "genre": "Funk, soul, jazz",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: WorldWide FM",
+        "url": "https://gta.wiki/w/WorldWide_FM"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "Podcasts": {
+    "summary": "GTA VI is the first game in the series with on-demand podcasts, kept in their own section of the radio menu and playable in cars or on foot through the phone and earbuds. The listed series are Drunk Kings, F*ck, Marry, Murder, Final Act, The Safe Trap and Vice City True Stories. Some episodes are available from the start and more unlock as the story progresses.",
+    "host": null,
+    "genre": "Podcasts (on-demand)",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Rockstar Newswire: The Music of Grand Theft Auto VI: In-Game Radio Stations (8 Oct 2026)",
+        "url": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "VGC: GTA 6 Podcasts explained",
+        "url": "https://www.videogameschronicle.com/guide/gta-6-podcasts-explained-how-to-listen-to-podcasts-in-gta-6/"
+      },
+      {
+        "label": "MP1st: GTA 6 Radio Stations Info Revealed, On-Demand Podcasts Confirmed",
+        "url": "https://mp1st.com/news/gta-6-radio-stations-info-revealed-on-demand-podcasts-confirmedcan-be-listened-on-foot"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      }
+    ]
+  },
+  "Thrillbilly Mud Club Radio": {
+    "summary": "A local station heard around the Thrillbilly Mud Club area. Most of its music is shared with The Chamber 106.6, plus two tracks found only here.",
+    "host": null,
+    "genre": null,
+    "frequency": null,
+    "sources": [
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      }
+    ]
+  },
+  "The Vault Radio": {
+    "summary": "A techno and house station unlocked inside The Vault nightclub in Downtown Vice City, by scanning a poster there. Hosted by DJ Pretzel.",
+    "host": "DJ Pretzel",
+    "genre": "Techno / house",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: Unique Playlists",
+        "url": "https://gta.wiki/w/The_Vault_Radio"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      }
+    ]
+  },
+  "The Wipe": {
+    "summary": "A talk station with trivia about the Leonida area. Its shows include Ask Dr. Nita (Anitta), El Otro Lado (John Leguizamo) and She Got Assets (Janelle James).",
+    "host": "Anitta (as Dr. Nita, Ask Dr. Nita), John Leguizamo (as Enrique \"El Enigma\" Romero, El Otro Lado) and Janelle James (as Tish, She Got Assets)",
+    "genre": "Talk radio",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: The Wipe",
+        "url": "https://gta.wiki/w/The_Wipe"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "WKTT": {
+    "summary": "A satirical conservative talk station. Stavros Halkias plays Dominic \"The Brick\" Brizzolato on Hit the Bricks, and Jason Sudeikis plays Richard Bastion on The Richard Bastion Show.",
+    "host": "Jason Sudeikis (as Richard Bastion, The Richard Bastion Show) and Stavros Halkias (as Dominic \"The Brick\" Brizzolato, Hit the Bricks)",
+    "genre": "Talk radio (satire)",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "GTA Wiki: WKTT Talk Radio",
+        "url": "https://gta.wiki/w/WKTT_Talk_Radio"
+      },
+      {
+        "label": "GTA Wiki: Radio Stations in GTA VI",
+        "url": "https://gta.wiki/w/Radio_Stations_in_GTA_VI"
+      },
+      {
+        "label": "Wikipedia: Grand Theft Auto VI",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  },
+  "The Sniper of La Perle": {
+    "summary": "A hidden station, unlocked by scanning four posters, hosted by Kodak Black. It features Haitian and Haitian-American artists, including DJ Michaël Brun.",
+    "host": "Kodak Black",
+    "genre": "Haitian music, hip-hop",
+    "frequency": null,
+    "sources": [
+      {
+        "label": "Pitchfork: GTA VI radio station guide",
+        "url": null
+      },
+      {
+        "label": "Community infographic: GTA VI radio hosts",
+        "url": null
+      }
+    ]
+  }
+}
