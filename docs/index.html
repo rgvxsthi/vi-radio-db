@@ -7,7 +7,6 @@
   <title>VI Radio DB</title>
   <meta name="description" content="A fan-made list of the radio stations in GTA VI and the names of their tracks.">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#0c0a1f">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <meta property="og:type" content="website">
   <meta property="og:title" content="VI Radio DB">
@@ -18,14 +17,15 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header dark-scope" id="top">
-    <div class="wrap site-header-inner">
-      <p class="site-title"><a href="#/"><img class="site-logo" src="logo.svg" alt="" width="40" height="40"><span>VI Radio DB</span></a></p>
-      <nav class="site-nav" aria-label="Site">
+  <header class="site-header" id="top">
+    <div class="wrap">
+      <p class="site-title"><a href="#/"><img class="site-logo" src="logo.svg" alt="" width="40" height="40">VI Radio DB</a></p>
+      <p class="site-tagline">A fan-made list of station and track names only: no audio, lyrics or game files. Not affiliated with Rockstar Games or Take-Two.</p>
+      <p class="site-links">
         <a href="#/contribute" id="nav-contribute">Contribute</a>
         <a href="https://github.com/rgvxsthi/vi-radio-db" rel="noopener">Source on GitHub</a>
-      </nav>
-      <p class="site-tagline">A fan-made list of station and track names only: no audio, lyrics or game files. Not affiliated with Rockstar Games or Take-Two. <span class="site-stats" id="site-stats"></span></p>
+        <span class="site-stats" id="site-stats"></span>
+      </p>
     </div>
   </header>
 
@@ -33,45 +33,9 @@
     <noscript><p class="wrap notice">This page needs JavaScript to show the station and track lists. The same list is in TRACKLIST.md in the GitHub repository.</p></noscript>
     <p class="wrap notice" id="load-state" role="status">Loading stations…</p>
 
-    <!-- Home view: sunset hero, station grid and the full, searchable track list -->
+    <!-- Home view: station grid and the full, searchable track list -->
     <div id="view-home" hidden>
-      <section class="hero-sky dark-scope" id="hero" aria-labelledby="home-title">
-        <div class="hero-pin">
-          <div class="sky" aria-hidden="true">
-            <div class="sky-stars"></div>
-            <div class="sky-sun"></div>
-            <svg class="sky-band sky-band--far" viewBox="0 0 1440 320" preserveAspectRatio="none" focusable="false"><path d="M0 150C170 105 330 190 520 150S880 80 1080 130 1330 185 1440 125V320H0Z"/></svg>
-            <svg class="sky-band sky-band--mid" viewBox="0 0 1440 320" preserveAspectRatio="none" focusable="false"><path d="M0 205C210 165 410 245 650 205S1030 150 1250 205 1400 225 1440 195V320H0Z"/></svg>
-            <svg class="sky-band sky-band--near" viewBox="0 0 1440 320" preserveAspectRatio="none" focusable="false"><path d="M0 255C250 228 470 290 730 258S1200 222 1440 262V320H0Z"/></svg>
-          </div>
-
-          <!-- The site's own tuning dial. It grows and fades as you scroll into the station grid. -->
-          <svg class="hero-dial" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-            <circle cx="100" cy="100" r="92" class="dial-ring"/>
-            <circle cx="100" cy="100" r="76" class="dial-ring dial-ring--inner"/>
-            <path d="M38 118A64 64 0 0 1 162 118" class="dial-arc"/>
-            <path d="M51 79l7 5M72 56l4 7M100 46v8M128 56l-4 7M149 79l-7 5" class="dial-ticks"/>
-            <g class="dial-needle"><path d="M100 118L100 58"/></g>
-            <circle cx="100" cy="118" r="7" class="dial-hub"/>
-          </svg>
-
-          <div class="wrap hero-copy">
-            <p class="hero-eyebrow">Fan-made radio guide</p>
-            <h1 class="hero-headline" id="home-title" tabindex="-1">
-              <span class="hero-line">Stations</span>
-              <span class="hero-line hero-line--glow">&amp; tracks</span>
-            </h1>
-            <p class="hero-sub">Station names, track names and listening links for the radio in GTA VI.</p>
-            <p class="hero-stats"><span><b id="hero-stations">&ndash;</b> stations</span> <span><b id="hero-tracks">&ndash;</b> tracks</span></p>
-            <p class="hero-actions">
-              <a class="button button--sunset" href="#stations-heading">Browse stations</a>
-              <a class="button button--ghost" href="#/contribute">Contribute</a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <div class="search-bar dark-scope" role="search">
+      <div class="search-bar" role="search">
         <div class="wrap search-inner">
           <label class="search-label" for="q">Search artists and titles on every station</label>
           <div class="search-field">
@@ -83,41 +47,37 @@
         </div>
       </div>
 
-      <div class="night dark-scope">
-        <div class="wrap">
-          <h2 class="display-title reveal" id="stations-heading" tabindex="-1">Stations</h2>
-
-          <section aria-labelledby="music-heading">
-            <h3 class="group-heading" id="music-heading">Music stations</h3>
-            <ul class="station-grid" id="grid-primary"></ul>
-          </section>
-
-          <section aria-labelledby="secondary-heading" id="secondary-group">
-            <h3 class="group-heading group-heading--secondary" id="secondary-heading">Talk and podcasts</h3>
-            <ul class="station-grid station-grid--secondary" id="grid-secondary"></ul>
-          </section>
-
-          <div class="notes">
-            <section class="note reveal" aria-labelledby="conf-heading">
-              <h3 id="conf-heading">Confidence</h3>
-              <dl class="legend">
-                <div><dt><span class="conf conf--high"><span class="conf-bars" aria-hidden="true"><i></i><i></i><i></i></span>High</span></dt><dd>The order of the music records in the game files and the artists' genre agree.</dd></div>
-                <div><dt><span class="conf conf--medium"><span class="conf-bars" aria-hidden="true"><i></i><i></i><i></i></span>Medium</span></dt><dd>One source of evidence.</dd></div>
-                <div><dt><span class="conf conf--low"><span class="conf-bars" aria-hidden="true"><i></i><i></i><i></i></span>Low</span></dt><dd>Best guess.</dd></div>
-              </dl>
-            </section>
-            <section class="note reveal" aria-labelledby="links-heading">
-              <h3 id="links-heading">Listening links</h3>
-              <p>The Spotify, YouTube Music and Apple Music buttons open in a new tab. A button with a play icon opens that exact track. A button with a magnifier icon opens a search for the artist and title, so the top result may not be the exact track. YouTube Music links are always searches.</p>
-              <p>Station badges are generic monograms made for this site, not the in-game logos.</p>
-            </section>
-          </div>
-        </div>
-      </div>
-
       <div class="wrap">
+        <h1 class="page-title" id="home-title" tabindex="-1">Stations</h1>
+
+        <section aria-labelledby="music-heading">
+          <h2 class="group-heading" id="music-heading">Music stations</h2>
+          <ul class="station-grid" id="grid-primary"></ul>
+        </section>
+
+        <section aria-labelledby="secondary-heading" id="secondary-group">
+          <h2 class="group-heading group-heading--secondary" id="secondary-heading">Talk and podcasts</h2>
+          <ul class="station-grid station-grid--secondary" id="grid-secondary"></ul>
+        </section>
+
+        <div class="notes">
+          <section class="note" aria-labelledby="conf-heading">
+            <h2 id="conf-heading">Confidence</h2>
+            <dl class="legend">
+              <div><dt><span class="conf conf--high"><span class="conf-bars" aria-hidden="true"><i></i><i></i><i></i></span>High</span></dt><dd>The order of the music records in the game files and the artists' genre agree.</dd></div>
+              <div><dt><span class="conf conf--medium"><span class="conf-bars" aria-hidden="true"><i></i><i></i><i></i></span>Medium</span></dt><dd>One source of evidence.</dd></div>
+              <div><dt><span class="conf conf--low"><span class="conf-bars" aria-hidden="true"><i></i><i></i><i></i></span>Low</span></dt><dd>Best guess.</dd></div>
+            </dl>
+          </section>
+          <section class="note" aria-labelledby="links-heading">
+            <h2 id="links-heading">Listening links</h2>
+            <p>The Spotify, YouTube Music and Apple Music buttons open in a new tab. A button with a play icon opens that exact track. A button with a magnifier icon opens a search for the artist and title, so the top result may not be the exact track. YouTube Music links are always searches.</p>
+            <p>Station badges are generic monograms made for this site, not the in-game logos.</p>
+          </section>
+        </div>
+
         <section class="all-tracks" aria-labelledby="all-tracks-heading">
-          <h2 class="display-title display-title--sub reveal" id="all-tracks-heading">All tracks</h2>
+          <h2 id="all-tracks-heading">All tracks</h2>
           <div id="sections"></div>
           <p class="notice" id="no-results" hidden>No tracks match your search.</p>
         </section>
@@ -125,36 +85,29 @@
     </div>
 
     <!-- Station view: filled in by app.js for #/station/<slug> -->
-    <div id="view-station" hidden></div>
+    <div id="view-station" class="wrap" hidden></div>
 
     <!-- Contribute view: #/contribute. The form cards are added by app.js. -->
-    <div id="view-contribute" hidden>
-      <header class="page-band dark-scope">
-        <div class="wrap">
-          <nav class="crumbs" aria-label="Breadcrumb"><a href="#/" class="back-link">&larr; All stations</a></nav>
-          <h1 class="page-band-title" id="contribute-title" tabindex="-1">Contribute</h1>
-          <p class="lede">Corrections are welcome. Pick the form that fits what you found and include a source, so others can check it.</p>
-        </div>
-      </header>
+    <div id="view-contribute" class="wrap" hidden>
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="#/" class="back-link">&larr; All stations</a></nav>
+      <h1 class="page-title" id="contribute-title" tabindex="-1">Contribute</h1>
+      <p class="lede">Corrections are welcome. Pick the form that fits what you found and include a source, so others can check it.</p>
+      <p class="rule">Names and links only: no lyrics, no audio files, no game files. Screenshots of the in-game radio screen are fine.</p>
 
-      <div class="wrap">
-        <p class="rule reveal">Names and links only: no lyrics, no audio files, no game files. Screenshots of the in-game radio screen are fine.</p>
+      <section aria-labelledby="forms-heading">
+        <h2 class="contribute-heading" id="forms-heading">Report something</h2>
+        <p class="muted small">Each form opens on GitHub in a new tab. You need a GitHub account to submit it.</p>
+        <ul class="form-list" id="contribute-forms"></ul>
+      </section>
 
-        <section aria-labelledby="forms-heading">
-          <h2 class="contribute-heading" id="forms-heading">Report something</h2>
-          <p class="muted small">Each form opens on GitHub in a new tab. You need a GitHub account to submit it.</p>
-          <ul class="form-list" id="contribute-forms"></ul>
-        </section>
-
-        <section class="note contribute-direct reveal" aria-labelledby="direct-heading">
-          <h2 id="direct-heading">Edit the data directly</h2>
-          <p>Edit <code>tracks.csv</code> or <code>station_info.json</code> in the <a href="https://github.com/rgvxsthi/vi-radio-db" rel="noopener">GitHub repository</a> and open a pull request. Running <code>python scripts/build.py</code> regenerates the rest.</p>
-        </section>
-      </div>
+      <section class="note contribute-direct" aria-labelledby="direct-heading">
+        <h2 id="direct-heading">Edit the data directly</h2>
+        <p>Edit <code>tracks.csv</code> or <code>station_info.json</code> in the <a href="https://github.com/rgvxsthi/vi-radio-db" rel="noopener">GitHub repository</a> and open a pull request. Running <code>python scripts/build.py</code> regenerates the rest.</p>
+      </section>
     </div>
   </main>
 
-  <footer class="site-footer dark-scope">
+  <footer class="site-footer">
     <div class="wrap">
       <p>Fan-made. Names only. Not affiliated with Rockstar Games or Take-Two.</p>
       <p class="footer-links"><a href="#/contribute">Contribute</a> <a href="https://github.com/rgvxsthi/vi-radio-db" rel="noopener">GitHub</a> <a href="#top">Back to top</a></p>
