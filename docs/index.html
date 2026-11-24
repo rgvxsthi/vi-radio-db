@@ -23,6 +23,7 @@
     <p class="folio-note">Fan-made, names only: no audio, lyrics or game files. Not affiliated with Rockstar Games or Take-Two.</p>
     <nav class="folio-nav" aria-label="Site">
       <a href="#/" id="nav-listings">Listings</a>
+      <a href="#/sources" id="nav-sources">Sources</a>
       <a href="#/contribute" id="nav-contribute">Contribute</a>
       <a href="https://github.com/rgvxsthi/vi-radio-db" target="_blank" rel="noopener">GitHub<span class="sr-only"> (opens in a new tab)</span></a>
     </nav>
@@ -70,6 +71,18 @@
     <!-- Station feature page: filled in by app.js for #/station/<slug> -->
     <article id="view-station" hidden></article>
 
+    <!-- Sources: #/sources. The list is compiled from the data by app.js. -->
+    <div id="view-sources" hidden>
+      <div class="masthead masthead--page">
+        <h1 class="masthead-title" id="sources-page-title" tabindex="-1">Sources</h1>
+        <p class="masthead-stand">Where the station facts come from. Hosts, genres and summaries are written in our own words from these pages; track names come from the game's own text.</p>
+      </div>
+      <section class="source-index" aria-labelledby="source-list-title">
+        <h2 class="section-head" id="source-list-title">All sources</h2>
+        <ol class="source-list" id="source-list"></ol>
+      </section>
+    </div>
+
     <!-- Contribute: #/contribute. The forms are listed by app.js. -->
     <div id="view-contribute" hidden>
       <div class="masthead masthead--page">
@@ -91,7 +104,7 @@
 
   <footer class="footer">
     <p class="footer-note">VI Radio DB is fan-made. Names only. Not affiliated with Rockstar Games or Take-Two.</p>
-    <p class="footer-links"><a href="#/">Listings</a> <a href="#/contribute">Contribute</a> <a href="https://github.com/rgvxsthi/vi-radio-db" target="_blank" rel="noopener">GitHub<span class="sr-only"> (opens in a new tab)</span></a> <a href="#top">Back to top</a></p>
+    <p class="footer-links"><a href="#/">Listings</a> <a href="#/sources">Sources</a> <a href="#/contribute">Contribute</a> <a href="https://github.com/rgvxsthi/vi-radio-db" target="_blank" rel="noopener">GitHub<span class="sr-only"> (opens in a new tab)</span></a> <a href="#top">Back to top</a></p>
     <p class="footer-font">Set in Allo by Josh Puckett (SIL OFL)</p>
   </footer>
 </body>

@@ -362,3 +362,20 @@ html { scroll-padding-top: 4.5rem; }
 @media (prefers-reduced-motion: reduce) { .station-bar, .station-bar.is-on { transition: none; } }
 @media (forced-colors: active) { .station-bar { border-bottom-color: CanvasText; } }
 @media print { .station-bar { display: none; } }
+
+/* Station page: sources and corrections are one line each, pointing to their pages */
+.fact--sources a { color: var(--ink); }
+.suggest-line { margin: 18px 0 0; padding-top: 10px; border-top: 1px solid var(--rule-soft, var(--ink-2)); font-size: 0.875rem; }
+.suggest-line a { font-weight: 720; color: var(--ink); }
+.suggest-line a:hover { color: var(--spot); }
+
+/* Sources page */
+.source-index { padding: 0 var(--gut) 56px; }
+.source-list { margin: 0; padding: 0; list-style: none; columns: 2 26rem; column-gap: 40px; column-rule: 1px solid var(--ink); }
+.source-entry { break-inside: avoid; display: grid; gap: 2px; padding: 12px 0 14px; border-bottom: 1px solid var(--rule-soft, var(--ink-2)); }
+.source-name { font-weight: 820; font-size: 1.0625rem; letter-spacing: -0.01em; color: var(--ink); overflow-wrap: anywhere; }
+a.source-name:hover { color: var(--spot); }
+.source-host { font-size: 0.8125rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.source-used { margin: 4px 0 0; font-size: 0.875rem; color: var(--ink-2); line-height: 1.45; }
+.source-used a { color: var(--ink); }
+@media (max-width: 640px) { .source-list { columns: 1; } }

@@ -4,6 +4,7 @@
  * Routes (hash based, so GitHub Pages needs no rewrites):
  *   #/                    listings: station index, search and station entries
  *   #/station/<slug>      one station's feature page
+ *   #/sources             every source behind the station facts
  *   #/contribute          how to send corrections
  *   #<slug>               old GitHub-style anchor, redirected to #/station/<slug>
  */
@@ -352,8 +353,14 @@
   }
   function formByFile(file) { return FORMS.filter(function (f) { return f.file === file; })[0]; }
 
-  // Shortcuts to the forms that fit this kind of station, with the issue title filled in.
-  function renderSuggest(st) {
+  // One small line that points to the contribute page.
+  function renderSuggest() {
+    return h('p', { class: 'suggest-line' },
+      h('a', { href: '#/contribute' }, 'Suggest a correction', h('span', { 'aria-hidden': 'true', text: ' \u2192' })));
+  }
+
+  // (Old per-station form shortcuts, kept for reference; no longer rendered.)
+  function renderSuggestForms(st) {
     var files = isTalk(st)
       ? ['6-podcast-talk.yml', '5-station-details.yml']
       : (st.tracks || []).length
@@ -413,13 +420,9 @@
         : h('p', { class: 'fact fact--count fact--none' }, NO_LIST + '.'),
       facts.map(function (f) { return h('p', { class: 'fact' }, h('b', { text: f[0] + ' ' }), f[1]); }),
       conf ? h('p', { class: 'fact' }, h('b', { text: conf.label + ' confidence. ' }), confNote(st, conf)) : null,
-      sources.length ? h('h2', { class: 'sources-title', id: 'sources-title', text: sources.length === 1 ? 'Source' : 'Sources' }) : null,
-      sources.length ? h('ul', { class: 'sources', 'aria-labelledby': 'sources-title' }, sources.map(function (s) {
-        return h('li', null, isWebUrl(s.url)
-          ? h('a', { href: s.url, target: '_blank', rel: 'noopener' }, str(s.label), h('span', { class: 'sr-only', text: ' (opens in a new tab)' }))
-          : h('span', { text: str(s.label) }));
-      })) : null,
-      renderSuggest(st));
+      sources.length ? h('p', { class: 'fact fact--sources' }, h('b', { text: 'Sources ' }),
+        h('a', { href: '#/sources', text: sources.length + ' ' + (sources.length === 1 ? 'source' : 'sources') + ', listed on the Sources page' })) : null,
+      renderSuggest());
 
     // Main column
     var main = h('div', { class: 'feature-main' },
@@ -500,13 +503,13 @@
 
   /* ---------- routing ---------- */
 
-  var VIEWS = ['view-home', 'view-station', 'view-contribute'];
+  var VIEWS = ['view-home', 'view-station', 'view-contribute', 'view-sources'];
 
   function setView(id) {
     if (currentView === 'view-home' && id !== 'view-home') homeScroll = window.scrollY;
     VIEWS.forEach(function (v) { $(v).hidden = v !== id; });
     if (id !== 'view-station') $('view-station').textContent = '';
-    [['nav-listings', 'view-home'], ['nav-contribute', 'view-contribute']].forEach(function (p) {
+    [['nav-listings', 'view-home'], ['nav-sources', 'view-sources'], ['nav-contribute', 'view-contribute']].forEach(function (p) {
       if (p[1] === id) $(p[0]).setAttribute('aria-current', 'page'); else $(p[0]).removeAttribute('aria-current');
     });
     var previous = currentView;
@@ -549,6 +552,49 @@
     if (!firstRoute) $('contribute-title').focus({ preventScroll: true });
   }
 
+  // Every source cited in the data, once, with the stations that cite it.
+  var sourcesBuilt = false;
+  function renderSources() {
+    if (sourcesBuilt) return;
+    sourcesBuilt = true;
+    var byKey = new Map();
+    stations.forEach(function (st) {
+      var list = st.info && Array.isArray(st.info.sources) ? st.info.sources : [];
+      list.forEach(function (s) {
+        if (!s || !str(s.label)) return;
+        var url = isWebUrl(s.url) ? s.url : '';
+        var key = url || str(s.label);
+        var e = byKey.get(key);
+        if (!e) { e = { label: str(s.label), url: url, stations: [] }; byKey.set(key, e); }
+        if (e.stations.indexOf(st) < 0) e.stations.push(st);
+      });
+    });
+    var all = Array.from(byKey.values()).sort(function (a, b) {
+      return b.stations.length - a.stations.length || a.label.localeCompare(b.label);
+    });
+    var ol = $('source-list');
+    all.forEach(function (e) {
+      ol.appendChild(h('li', { class: 'source-entry' },
+        e.url
+          ? h('a', { class: 'source-name', href: e.url, target: '_blank', rel: 'noopener' }, e.label, h('span', { class: 'sr-only', text: ' (opens in a new tab)' }))
+          : h('span', { class: 'source-name', text: e.label }),
+        e.url ? h('span', { class: 'source-host', text: hostOf(e.url) }) : h('span', { class: 'source-host', text: 'no link' }),
+        h('p', { class: 'source-used' }, 'Used for ',
+          e.stations.map(function (st, i) {
+            return [i ? (i === e.stations.length - 1 ? ' and ' : ', ') : '', h('a', { href: stationHref(st), text: st.name })];
+          }), '.')));
+    });
+  }
+  function hostOf(url) { try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return ''; } }
+
+  function showSources() {
+    renderSources();
+    setView('view-sources');
+    document.title = 'Sources · ' + SITE_NAME;
+    window.scrollTo(0, 0);
+    if (!firstRoute) $('sources-page-title').focus({ preventScroll: true });
+  }
+
   function route() {
     var hash = location.hash;
     var m = /^#\/station\/([^/?#]+)\/?$/.exec(hash);
@@ -558,6 +604,8 @@
       showStation(slug);
     } else if (/^#\/contribute\/?$/.test(hash)) {
       showContribute();
+    } else if (/^#\/sources\/?$/.test(hash)) {
+      showSources();
     } else if (hash.length > 1 && hash.charAt(1) !== '/' && bySlug.has(hash.slice(1))) {
       // Old-style #slug anchor (as in TRACKLIST.md): send it to the station page.
       location.replace('#/station/' + encodeURIComponent(hash.slice(1)));
