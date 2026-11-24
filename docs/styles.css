@@ -175,8 +175,11 @@ table { width: 100%; border-collapse: collapse; }
 
 /* ---------- station feature ---------- */
 .feature-top { padding: 14px var(--gut) 0; }
-.feature-kind { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 14px; font-size: 0.875rem; color: var(--ink-2); }
+.feature-kind { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 clamp(18px, 2vw, 30px); font-size: 0.875rem; color: var(--ink-2);
+  /* the station name's very tall glyphs reach above its line box; keep the back button on top so it stays clickable */
+  position: relative; z-index: 2; }
 .back-link {
+  position: relative; background: var(--paper);
   display: inline-flex; align-items: center; gap: 8px; min-height: 2.25rem; padding: 0 14px 0 10px;
   border: 1.5px solid var(--ink); color: var(--ink); font-weight: 760; text-decoration: none;
 }
