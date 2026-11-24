@@ -1,0 +1,3584 @@
+{
+ "stations": [
+  {
+   "name": "AfroBank FM",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "ALAFIA",
+     "title": "Assanssan"
+    },
+    {
+     "artist": "ALASKA",
+     "title": "Accuse"
+    },
+    {
+     "artist": "ASAKE",
+     "title": "Joha"
+    },
+    {
+     "artist": "AYRA STARR",
+     "title": "SEX BILLS BASS THRILLS"
+    },
+    {
+     "artist": "BALCONY MIX AFRICA FT. MAJOR LEAGUE DJZ, FOCALISTIC, LADY DU, LUUDADEEJAY & AUNTY GELATO",
+     "title": "Government"
+    },
+    {
+     "artist": "BURNA BOY",
+     "title": "Bigger"
+    },
+    {
+     "artist": "BURNA BOY FT. SEYI VIBEZ",
+     "title": "Giza"
+    },
+    {
+     "artist": "CIZA, THUKUTHELA & JAZZWRLD",
+     "title": "Isaka (6am)"
+    },
+    {
+     "artist": "DE MOGUL SA FT. MS MO & MAKHENSA",
+     "title": "Oe Batla Kae"
+    },
+    {
+     "artist": "DJ LAG & ROBOT BOII FT. KAMO MPHELA",
+     "title": "Shay'sana"
+    },
+    {
+     "artist": "DJ MORUTI",
+     "title": "Milandu Bhe"
+    },
+    {
+     "artist": "DOPENATION",
+     "title": "KAKALIKA"
+    },
+    {
+     "artist": "EPARAPO FT. DELE SOSIMI",
+     "title": "From London To Lagos (Bayaka Remix)"
+    },
+    {
+     "artist": "FIREBOY DML",
+     "title": "Yawa"
+    },
+    {
+     "artist": "HUGH MASEKELA",
+     "title": "Run No More (A Vuo Mo)"
+    },
+    {
+     "artist": "KIKI GYAN",
+     "title": "Keep On Dancing"
+    },
+    {
+     "artist": "MANU DIBANGO",
+     "title": "Goro City"
+    },
+    {
+     "artist": "NO11 & AYJAY BOBO FT. MONOCHROME",
+     "title": "How Far"
+    },
+    {
+     "artist": "NTOMBI NDABA",
+     "title": "Tomorrow"
+    },
+    {
+     "artist": "OFEGE",
+     "title": "Burning Jungle"
+    },
+    {
+     "artist": "OMAH LAY",
+     "title": "Holy Ghost"
+    },
+    {
+     "artist": "ORLANDO JULIUS",
+     "title": "Disco Hi-Life"
+    },
+    {
+     "artist": "OUMOU SANGARÉ",
+     "title": "Sarama"
+    },
+    {
+     "artist": "PAT THOMAS FT. EBO TAYLOR",
+     "title": "Gye Wani"
+    },
+    {
+     "artist": "PHYNO & BURNA BOY",
+     "title": "Do I (Remix)"
+    },
+    {
+     "artist": "SOULEY KANTÉ",
+     "title": "Bi Magni"
+    },
+    {
+     "artist": "TONY ALLEN & THE AFRO MESSENGERS",
+     "title": "No Discrimination"
+    },
+    {
+     "artist": "UNCLE WAFFLES FT. ROYAL MUSIQ, OHP SAGE & PCEE",
+     "title": "Wadibusa"
+    },
+    {
+     "artist": "WILLIAM ONYEABOR",
+     "title": "Fantastic Man"
+    },
+    {
+     "artist": "YORUBA SINGERS",
+     "title": "Black Pepper"
+    },
+    {
+     "artist": "ZAYLEVELTEN",
+     "title": "Guap Up"
+    }
+   ]
+  },
+  {
+   "name": "Back Country Radio",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "DAVID ALLAN COE",
+     "title": "Need a Little Time Off for Bad Behavior"
+    },
+    {
+     "artist": "GEORGE JONES & JOHNNY PAYCHECK",
+     "title": "You Can Have Her"
+    },
+    {
+     "artist": "GEORGE STRAIT",
+     "title": "The Fireman"
+    },
+    {
+     "artist": "GLEN CAMPBELL",
+     "title": "Rhinestone Cowboy"
+    },
+    {
+     "artist": "HANK WILLIAMS JR.",
+     "title": "A Country Boy Can Survive"
+    },
+    {
+     "artist": "HANK WILLIAMS JR.",
+     "title": "I've Been Down"
+    },
+    {
+     "artist": "HANK WILLIAMS JR. & WAYLON JENNINGS",
+     "title": "The Conversation"
+    },
+    {
+     "artist": "JERRY REED",
+     "title": "When You're Hot, You're Hot"
+    },
+    {
+     "artist": "JESSI COLTER",
+     "title": "Is There Any Way (You'd Stay Forever)"
+    },
+    {
+     "artist": "JOE DIFFIE",
+     "title": "Pickup Man"
+    },
+    {
+     "artist": "JOHNNY PAYCHECK",
+     "title": "Someone To Give My Love To"
+    },
+    {
+     "artist": "LORETTA LYNN",
+     "title": "Don't Come Home A-Drinkin' (With Lovin' On Your Mind)"
+    },
+    {
+     "artist": "MEL MCDANIEL",
+     "title": "Louisiana Saturday Night"
+    },
+    {
+     "artist": "MERLE HAGGARD",
+     "title": "Stop The World And Let Me Off"
+    },
+    {
+     "artist": "ROSANNE CASH",
+     "title": "Tennessee Flat Top Box"
+    },
+    {
+     "artist": "TAMMY WYNETTE",
+     "title": "Talkin' To Myself Again"
+    },
+    {
+     "artist": "THE BELLAMY BROTHERS",
+     "title": "Let Your Love Flow"
+    },
+    {
+     "artist": "THE JUDDS",
+     "title": "Love Is Alive"
+    },
+    {
+     "artist": "THE KENTUCKY HEADHUNTERS",
+     "title": "Walk Softly On This Heart Of Mine"
+    },
+    {
+     "artist": "TONY JOE WHITE",
+     "title": "Polk Salad Annie"
+    },
+    {
+     "artist": "WAYLON JENNINGS",
+     "title": "Gold Dust Woman"
+    },
+    {
+     "artist": "WAYLON JENNINGS",
+     "title": "Thanks to the Cathouse (I'm in the Doghouse With You)"
+    },
+    {
+     "artist": "WAYLON JENNINGS",
+     "title": "Waymore's Blues"
+    },
+    {
+     "artist": "WAYLON JENNINGS & WILLIE NELSON",
+     "title": "Just To Satisfy You"
+    }
+   ]
+  },
+  {
+   "name": "Circoloco Records Radio",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "ALINE UMBER & KROL FT. TILLMANN OSTENDARP",
+     "title": "Home Now"
+    },
+    {
+     "artist": "ALINE UMBER & MAXIME DB FT. ANDRÉ BAUM",
+     "title": "Coming Back To Life"
+    },
+    {
+     "artist": "ANOTR",
+     "title": "Paradise"
+    },
+    {
+     "artist": "ANOTR FT. EMILY WARREN",
+     "title": "Silver Lines"
+    },
+    {
+     "artist": "BLACK LOUNGE",
+     "title": "Bickering (Max Dean Remix)"
+    },
+    {
+     "artist": "CARLITA & BAKAR",
+     "title": "Last Night"
+    },
+    {
+     "artist": "CHLOÉ CAILLET & MYD",
+     "title": "I Feel Love"
+    },
+    {
+     "artist": "CHRIS STASSY",
+     "title": "We On This Ride"
+    },
+    {
+     "artist": "DJ TENNIS FT. TOMIKE",
+     "title": "Never Look Back"
+    },
+    {
+     "artist": "JAMBACK",
+     "title": "Positive"
+    },
+    {
+     "artist": "JIMI JULES",
+     "title": "Don't Break My Heart"
+    },
+    {
+     "artist": "JIMI JULES",
+     "title": "Turbo Rosso"
+    },
+    {
+     "artist": "LARRY LATENIGHT",
+     "title": "Addicted"
+    },
+    {
+     "artist": "MAP.ACHE",
+     "title": "ROCKMI"
+    },
+    {
+     "artist": "MICHAEL BIBI",
+     "title": "RHYTHM OF THE NIGHT"
+    },
+    {
+     "artist": "MICHAEL BIBI & KETTAMA",
+     "title": "Mystery Of Raw"
+    },
+    {
+     "artist": "MIND AGAINST",
+     "title": "Let it Go"
+    },
+    {
+     "artist": "PAWSA",
+     "title": "COLLECT THE COMMAS"
+    },
+    {
+     "artist": "PAWSA & FAST EDDIE",
+     "title": "Body Rock FM"
+    },
+    {
+     "artist": "PIONAL",
+     "title": "CeeSeeMee"
+    },
+    {
+     "artist": "PROSPA & MURDA BEATZ",
+     "title": "Baby"
+    },
+    {
+     "artist": "PROSPA FT. RAHH",
+     "title": "This Rhythm"
+    },
+    {
+     "artist": "RAMPA",
+     "title": "The Church (DJ Lag & Palms Trax Remix)"
+    },
+    {
+     "artist": "ROSSI. & DEMI",
+     "title": "Deep N Sexy"
+    },
+    {
+     "artist": "SETH TROXLER",
+     "title": "Bootlicker"
+    },
+    {
+     "artist": "SKREAM",
+     "title": "Floral"
+    },
+    {
+     "artist": "SKREAM & JACKMASTER",
+     "title": "The Attention Deficit Track"
+    },
+    {
+     "artist": "THE GHOSTBUSTERS",
+     "title": "CLOWN"
+    }
+   ]
+  },
+  {
+   "name": "Cocoteo FM",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "ANUEL AA & HAZE",
+     "title": "Amanece"
+    },
+    {
+     "artist": "ARCA",
+     "title": "Sandunguea"
+    },
+    {
+     "artist": "AXEL RULAY FT. FARRUKO & EL ALFA",
+     "title": "Si Es Trucho Es Trucho (Remix)"
+    },
+    {
+     "artist": "BAD BUNNY",
+     "title": "EoO"
+    },
+    {
+     "artist": "BAD BUNNY",
+     "title": "Otra Noche en Miami"
+    },
+    {
+     "artist": "BB TRICKZ",
+     "title": "Malvada"
+    },
+    {
+     "artist": "CA7RIEL & PACO AMOROSO",
+     "title": "DUMBAI"
+    },
+    {
+     "artist": "CALLE 13",
+     "title": "Suave Mix (Blass Remix)"
+    },
+    {
+     "artist": "CHIMBALA & OMEGA",
+     "title": "Se Me Nota (Agarrame)"
+    },
+    {
+     "artist": "DON OMAR",
+     "title": "Intocable"
+    },
+    {
+     "artist": "EL ALFA, CJ & CHAEL PRODUCIENDO FT. EL CHERRY SCOM",
+     "title": "La Mamá de la Mamá"
+    },
+    {
+     "artist": "ELVIS CRESPO",
+     "title": "Nuestra Canción"
+    },
+    {
+     "artist": "FARRUKO",
+     "title": "Pepas"
+    },
+    {
+     "artist": "FEID",
+     "title": "Chorrito Pa Las Animas"
+    },
+    {
+     "artist": "FUERZA REGIDA",
+     "title": "Suzuki"
+    },
+    {
+     "artist": "JHAYCO",
+     "title": "X"
+    },
+    {
+     "artist": "KALI UCHIS & HELADO NEGRO",
+     "title": "Largate"
+    },
+    {
+     "artist": "KAROL G & MARIAH ANGELIQ",
+     "title": "El Makinon"
+    },
+    {
+     "artist": "MJ NEBREDA",
+     "title": "La Pari"
+    },
+    {
+     "artist": "MYKE TOWERS",
+     "title": "Girl"
+    },
+    {
+     "artist": "RAINAO & EL LABERINTO DEL COCO",
+     "title": "Mariposas en el Estómago"
+    },
+    {
+     "artist": "RAUW ALEJANDRO",
+     "title": "Macacoa 2000"
+    },
+    {
+     "artist": "ROMEO SANTOS & EL CHAVAL DE LA BACHATA",
+     "title": "Canalla"
+    },
+    {
+     "artist": "ROSALÍA",
+     "title": "Candy"
+    },
+    {
+     "artist": "SLOW JAMZ",
+     "title": "Sin Dormir"
+    },
+    {
+     "artist": "TAINY & BAD BUNNY",
+     "title": "MOJABI GHOST"
+    },
+    {
+     "artist": "TOKISCHA & BULIN 47",
+     "title": "CELOS"
+    },
+    {
+     "artist": "YOUNG MIKO",
+     "title": "Ni Le Cabe"
+    }
+   ]
+  },
+  {
+   "name": "Dirty South Classics",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "2 CHAINZ FT. DRAKE",
+     "title": "No Lie"
+    },
+    {
+     "artist": "2PAC FT. TRICK DADDY",
+     "title": "Still Ballin' (Nitty Remix)"
+    },
+    {
+     "artist": "B.G. FT. HOT BOYS & BIG TYMERS",
+     "title": "Bling Bling"
+    },
+    {
+     "artist": "BIG TYMERS FT. JUVENILE & LIL WAYNE",
+     "title": "#1 Stunna"
+    },
+    {
+     "artist": "BIRDMAN FT. LIL WAYNE",
+     "title": "Pop Bottles"
+    },
+    {
+     "artist": "BRISCO",
+     "title": ""
+    },
+    {
+     "artist": "CHINGY FT. LUDACRIS & SNOOP DOGG",
+     "title": "Holidae In"
+    },
+    {
+     "artist": "CHOPPA STYLE FT. MASTER P",
+     "title": "Choppa Style"
+    },
+    {
+     "artist": "CRIME MOB FT. LIL SCRAPPY",
+     "title": "Knuck If You Buck"
+    },
+    {
+     "artist": "DAVID BANNER FT. LIL' FLIP",
+     "title": "Like A Pimp"
+    },
+    {
+     "artist": "DEM FRANCHIZE BOYZ",
+     "title": "White Tee"
+    },
+    {
+     "artist": "DJ KHALED FT. TRICK DADDY, RICK ROSS & PITBULL",
+     "title": "Born N Raised"
+    },
+    {
+     "artist": "GANG STARR",
+     "title": "Step In The Arena"
+    },
+    {
+     "artist": "GANGSTA BOO FT. DJ PAUL & JUICY J",
+     "title": "Where Dem Dollas At"
+    },
+    {
+     "artist": "GETO BOYS",
+     "title": "Damn It Feels Good to Be a Gangsta"
+    },
+    {
+     "artist": "GORILLA ZOE FT. GUCCI MANE & OJ DA JUICEMAN",
+     "title": "Helluvalife"
+    },
+    {
+     "artist": "GUCCI MANE",
+     "title": "Freaky Girl"
+    },
+    {
+     "artist": "GUCCI MANE",
+     "title": "Lemonade"
+    },
+    {
+     "artist": "JAŸ-Z FT. UGK",
+     "title": "Big Pimpin'"
+    },
+    {
+     "artist": "JEEZY FT. BANKROLL FRESH",
+     "title": "All There"
+    },
+    {
+     "artist": "JEEZY FT. JAŸ-Z",
+     "title": "Seen It All"
+    },
+    {
+     "artist": "JT MONEY FT. SOLÉ",
+     "title": "Who Dat"
+    },
+    {
+     "artist": "JUVENILE FT. SOULJA SLIM",
+     "title": "Slow Motion"
+    },
+    {
+     "artist": "LIL JON & THE EAST SIDE BOYZ FT. LIL SCRAPPY",
+     "title": "What U Gon' Do"
+    },
+    {
+     "artist": "LIL WAYNE",
+     "title": "A Milli"
+    },
+    {
+     "artist": "MIKE JONES",
+     "title": "Back Then"
+    },
+    {
+     "artist": "OL' DIRTY BASTARD FT. KELIS",
+     "title": "Got Your Money"
+    },
+    {
+     "artist": "OUTKAST",
+     "title": "Player's Ball"
+    },
+    {
+     "artist": "PETEY PABLO",
+     "title": "Freek-A-Leek"
+    },
+    {
+     "artist": "RICK ROSS",
+     "title": "Hustlin'"
+    },
+    {
+     "artist": "RICK ROSS",
+     "title": "Push It"
+    },
+    {
+     "artist": "SHAWTY LO",
+     "title": "Dey Know"
+    },
+    {
+     "artist": "T-PAIN FT. MIKE JONES",
+     "title": "I'm N Luv (Wit A Stripper)"
+    },
+    {
+     "artist": "T.I.",
+     "title": "Rubber Band Man"
+    },
+    {
+     "artist": "THREE 6 MAFIA",
+     "title": "Side 2 Side"
+    },
+    {
+     "artist": "THREE 6 MAFIA FT. PAULA CAMPBELL",
+     "title": "Hard Out Here For A Pimp"
+    },
+    {
+     "artist": "TRICK DADDY",
+     "title": "I'm A Thug"
+    },
+    {
+     "artist": "TRINA",
+     "title": "Da Baddest Bitch"
+    },
+    {
+     "artist": "YING YANG TWINS FT. TRICK DADDY",
+     "title": "What's Happenin!"
+    },
+    {
+     "artist": "YOUNG BUCK",
+     "title": "Shorty Wanna Ride"
+    },
+    {
+     "artist": "YUNG JOC FT. NITTI",
+     "title": "It's Goin' Down"
+    }
+   ]
+  },
+  {
+   "name": "Emotion 98.3",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "ACE",
+     "title": "How Long"
+    },
+    {
+     "artist": "AIR SUPPLY",
+     "title": "All Out Of Love"
+    },
+    {
+     "artist": "ANITA BAKER",
+     "title": "Sweet Love"
+    },
+    {
+     "artist": "BRUCE HORNSBY AND THE RANGE",
+     "title": "The Way It Is"
+    },
+    {
+     "artist": "CAPTAIN & TENNILLE",
+     "title": "But I Think It's A Dream"
+    },
+    {
+     "artist": "CARLY SIMON",
+     "title": "Coming Around Again"
+    },
+    {
+     "artist": "CHEAP TRICK",
+     "title": "The Flame"
+    },
+    {
+     "artist": "CHICAGO",
+     "title": "Hard To Say I'm Sorry"
+    },
+    {
+     "artist": "CHRIS ISAAK",
+     "title": "Lie To Me"
+    },
+    {
+     "artist": "CHRIS REA",
+     "title": "Fool (If You Think It's Over)"
+    },
+    {
+     "artist": "CLIFF RICHARD",
+     "title": "Devil Woman"
+    },
+    {
+     "artist": "DEF LEPPARD",
+     "title": "Love Bites"
+    },
+    {
+     "artist": "DOUBLE",
+     "title": "The Captain Of Her Heart"
+    },
+    {
+     "artist": "DR. HOOK",
+     "title": "When You're in Love With a Beautiful Woman"
+    },
+    {
+     "artist": "EARTH, WIND & FIRE",
+     "title": "After the Love Has Gone"
+    },
+    {
+     "artist": "ELTON JOHN",
+     "title": "I Guess That's Why They Call It The Blues"
+    },
+    {
+     "artist": "ERIC CARMEN",
+     "title": "All By Myself"
+    },
+    {
+     "artist": "EXILE",
+     "title": "Kiss You All Over"
+    },
+    {
+     "artist": "GARY WRIGHT",
+     "title": ""
+    },
+    {
+     "artist": "GEORGE MICHAEL",
+     "title": "Father Figure"
+    },
+    {
+     "artist": "GREGORY ABBOTT",
+     "title": "Shake You Down"
+    },
+    {
+     "artist": "HEART",
+     "title": "Alone"
+    },
+    {
+     "artist": "JUICE NEWTON",
+     "title": "Angel Of The Morning"
+    },
+    {
+     "artist": "MARIAH CAREY",
+     "title": "Vision Of Love"
+    },
+    {
+     "artist": "PATTI LABELLE AND MICHAEL MCDONALD",
+     "title": "On My Own"
+    },
+    {
+     "artist": "PHIL COLLINS",
+     "title": "Against All Odds (Take A Look At Me Now)"
+    },
+    {
+     "artist": "ROBERT PLANT",
+     "title": "In The Mood"
+    },
+    {
+     "artist": "RONNIE MILSAP",
+     "title": "Stranger In My House"
+    },
+    {
+     "artist": "ROXETTE",
+     "title": "Listen To Your Heart"
+    },
+    {
+     "artist": "RUSS BALLARD",
+     "title": "Voices"
+    },
+    {
+     "artist": "SCRITTI POLITTI",
+     "title": "Overnite"
+    },
+    {
+     "artist": "STEVIE NICKS FT. TOM PETTY AND THE HEARTBREAKERS",
+     "title": "Stop Draggin' My Heart Around"
+    },
+    {
+     "artist": "THE CARS",
+     "title": "Drive"
+    },
+    {
+     "artist": "THE WALKER BROTHERS",
+     "title": "No Regrets"
+    },
+    {
+     "artist": "WILL TO POWER",
+     "title": "Baby I Love Your Way / Freebird"
+    }
+   ]
+  },
+  {
+   "name": "Flash FM",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "ADDISON RAE",
+     "title": "Fame Is A Gun"
+    },
+    {
+     "artist": "ALUNA & JAYDA G",
+     "title": "Mine O' Mine"
+    },
+    {
+     "artist": "ARIANA GRANDE FT. ZEDD",
+     "title": "Break Free"
+    },
+    {
+     "artist": "BILLIE EILISH",
+     "title": "Lunch"
+    },
+    {
+     "artist": "BOOTY LUV",
+     "title": "Shine"
+    },
+    {
+     "artist": "BRITTANY HOWARD",
+     "title": "Prove It To You"
+    },
+    {
+     "artist": "CA7RIEL & PACO AMOROSO, PINKPANTHERESS, FRED AGAIN.., ETIENNE DE CRÉCY",
+     "title": "Sexy Magic"
+    },
+    {
+     "artist": "CALVIN HARRIS FT. PHARRELL WILLIAMS, KATY PERRY & BIG SEAN",
+     "title": "Feels"
+    },
+    {
+     "artist": "CAMELPHAT & ELDERBROOK",
+     "title": "Cola"
+    },
+    {
+     "artist": "CAMILA CABELLO",
+     "title": "Sweet Like Candy"
+    },
+    {
+     "artist": "CARLY RAE JEPSEN",
+     "title": "Run Away With Me"
+    },
+    {
+     "artist": "CHAPPELL ROAN",
+     "title": "HOT TO GO!"
+    },
+    {
+     "artist": "CHARLI XCX",
+     "title": "Good Ones"
+    },
+    {
+     "artist": "CHLOE MORIONDO",
+     "title": "Oyster"
+    },
+    {
+     "artist": "CIARA FT. JUSTIN TIMBERLAKE",
+     "title": "Love Sex Magic"
+    },
+    {
+     "artist": "COLDPLAY",
+     "title": "Adventure of a Lifetime"
+    },
+    {
+     "artist": "DAFT PUNK",
+     "title": "Around The World"
+    },
+    {
+     "artist": "DIGITALISM",
+     "title": "Space Invaders"
+    },
+    {
+     "artist": "DISCLOSURE",
+     "title": "Jaded"
+    },
+    {
+     "artist": "DOECHII & SZA",
+     "title": "Persuasive"
+    },
+    {
+     "artist": "DRAKE FT. MAJID JORDAN",
+     "title": "Hold On, We're Going Home"
+    },
+    {
+     "artist": "DUA LIPA",
+     "title": "Go Easy"
+    },
+    {
+     "artist": "DUA LIPA",
+     "title": "Houdini"
+    },
+    {
+     "artist": "ECHOSMITH",
+     "title": "Cool Kids"
+    },
+    {
+     "artist": "ELLA LANGLEY",
+     "title": "Be Her"
+    },
+    {
+     "artist": "FISCHERSPOONER",
+     "title": "Emerge"
+    },
+    {
+     "artist": "FOSTER THE PEOPLE",
+     "title": "Pumped Up Kicks"
+    },
+    {
+     "artist": "FRANK OCEAN",
+     "title": "Lost"
+    },
+    {
+     "artist": "GARBAGE",
+     "title": "Only Happy When It Rains"
+    },
+    {
+     "artist": "GEORGE MICHAEL",
+     "title": "Fastlove, Pt. 1"
+    },
+    {
+     "artist": "GOLDFRAPP",
+     "title": "Strict Machine"
+    },
+    {
+     "artist": "GORILLAZ FT. SHAUN RYDER & ROSES GABOR",
+     "title": "DARE"
+    },
+    {
+     "artist": "GWEN STEFANI",
+     "title": "What You Waiting For?"
+    },
+    {
+     "artist": "GWEN STEFANI FT. EVE",
+     "title": "Rich Girl"
+    },
+    {
+     "artist": "JENNIE",
+     "title": "Power Trip"
+    },
+    {
+     "artist": "JENNIFER PAIGE",
+     "title": "Crush"
+    },
+    {
+     "artist": "JESSIE MURPH & JELLY ROLL",
+     "title": "Wild Ones"
+    },
+    {
+     "artist": "JISOO",
+     "title": "Earthquake"
+    },
+    {
+     "artist": "JUSTICE",
+     "title": "DVNO"
+    },
+    {
+     "artist": "JUSTICE FT. DJO",
+     "title": "The Night's Coming"
+    },
+    {
+     "artist": "JUSTICE FT. TAME IMPALA, SZA, KING GIZZARD & THE LIZARD WIZARD",
+     "title": "Flower In A Hurricane"
+    },
+    {
+     "artist": "JUSTICE FT. THE WEEKND",
+     "title": "My Only Vice"
+    },
+    {
+     "artist": "JUSTIN BIEBER & BLOODPOP®",
+     "title": "Friends"
+    },
+    {
+     "artist": "KATSEYE",
+     "title": "Gabriela"
+    },
+    {
+     "artist": "KELE",
+     "title": "Tenderoni"
+    },
+    {
+     "artist": "KELLY ROWLAND FT. LIL WAYNE",
+     "title": "Motivation"
+    },
+    {
+     "artist": "KENYA GRACE",
+     "title": "Mr. Cool"
+    },
+    {
+     "artist": "KYLIE MINOGUE",
+     "title": "Spinning Around"
+    },
+    {
+     "artist": "LA ROUX",
+     "title": "Bulletproof"
+    },
+    {
+     "artist": "LANA DEL REY",
+     "title": "CRAZY FOR YOU"
+    },
+    {
+     "artist": "LCD SOUNDSYSTEM",
+     "title": "North American Scum"
+    },
+    {
+     "artist": "LORDE",
+     "title": "Green Light"
+    },
+    {
+     "artist": "MADONNA FT. NICKI MINAJ & M.I.A.",
+     "title": "Give Me All Your Luvin'"
+    },
+    {
+     "artist": "MAJOR LAZER & DJ SNAKE FT. MØ",
+     "title": "Lean On"
+    },
+    {
+     "artist": "MANDY MOORE",
+     "title": "CANDY"
+    },
+    {
+     "artist": "MARIAH CAREY",
+     "title": "Someday"
+    },
+    {
+     "artist": "MGMT",
+     "title": "Electric Feel"
+    },
+    {
+     "artist": "MOLOKO",
+     "title": "Forever More"
+    },
+    {
+     "artist": "MORGAN WALLEN",
+     "title": "Last Thing You Need"
+    },
+    {
+     "artist": "NATASHA BEDINGFIELD",
+     "title": "Unwritten"
+    },
+    {
+     "artist": "NATION OF LANGUAGE",
+     "title": "Across That Fine Line"
+    },
+    {
+     "artist": "OLIVIA RODRIGO",
+     "title": "Good 4 U"
+    },
+    {
+     "artist": "OVERMONO & KINDORA",
+     "title": "Even Angels Ghost"
+    },
+    {
+     "artist": "PHOENIX",
+     "title": "1901"
+    },
+    {
+     "artist": "PINKPANTHERESS",
+     "title": "Illegal"
+    },
+    {
+     "artist": "PROSPA & HALSEY",
+     "title": "So Hot"
+    },
+    {
+     "artist": "RINA SAWAYAMA",
+     "title": "TRDWFE"
+    },
+    {
+     "artist": "ROBYN",
+     "title": "Show Me Love"
+    },
+    {
+     "artist": "ROBYN, CA7RIEL & PACO AMOROSO",
+     "title": "Blow My Mind (CA7RIEL & Paco Amoroso Version)"
+    },
+    {
+     "artist": "ROSE GRAY",
+     "title": "All Again"
+    },
+    {
+     "artist": "RÓISÍN MURPHY",
+     "title": "Overpowered"
+    },
+    {
+     "artist": "SAM FENDER",
+     "title": "People Watching"
+    },
+    {
+     "artist": "SANTIGOLD",
+     "title": "Disparate Youth"
+    },
+    {
+     "artist": "SIA",
+     "title": "Cheap Thrills"
+    },
+    {
+     "artist": "TATE MCRAE",
+     "title": "Sports Car"
+    },
+    {
+     "artist": "TEXAS",
+     "title": "Inner Smile"
+    },
+    {
+     "artist": "THE BLACK KEYS",
+     "title": "No Rain, No Flowers"
+    },
+    {
+     "artist": "THE TING TINGS",
+     "title": "That's Not My Name"
+    },
+    {
+     "artist": "THE WEEKND",
+     "title": "Wanderlust"
+    },
+    {
+     "artist": "TOVE LO",
+     "title": "Blood In Your Eyes"
+    },
+    {
+     "artist": "TOVE LO & SG LEWIS",
+     "title": "HEAT"
+    },
+    {
+     "artist": "TSHA FT. ROSE GRAY",
+     "title": "Girls"
+    },
+    {
+     "artist": "U2",
+     "title": "Lemon"
+    },
+    {
+     "artist": "USHER FT. PITBULL",
+     "title": "DJ Got Us Fallin' In Love"
+    },
+    {
+     "artist": "WET LEG",
+     "title": "Mangetout (The Dare Remix)"
+    },
+    {
+     "artist": "X-PRESS 2 FT. DAVID BYRNE",
+     "title": "Lazy"
+    },
+    {
+     "artist": "XPANSIONS",
+     "title": "Move Your Body"
+    },
+    {
+     "artist": "ZARA LARSSON",
+     "title": "Fast Emotion"
+    },
+    {
+     "artist": "ZARA LARSSON & PINKPANTHERESS",
+     "title": "Midnight Sun (Girls Trip)"
+    }
+   ]
+  },
+  {
+   "name": "Gloriana Blues Radio",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "ALBERT COLLINS",
+     "title": "Ice Pick"
+    },
+    {
+     "artist": "B.B. KING",
+     "title": "Chains And Things"
+    },
+    {
+     "artist": "BIG MAMA THORNTON",
+     "title": "Bumble Bee"
+    },
+    {
+     "artist": "BO DIDDLEY",
+     "title": "I'm A Man"
+    },
+    {
+     "artist": "BUDDY GUY",
+     "title": "Stone Crazy"
+    },
+    {
+     "artist": "CHAMPION JACK DUPREE",
+     "title": "One Scotch, One Bourbon, One Beer"
+    },
+    {
+     "artist": "EARL HOOKER",
+     "title": "Blue Guitar"
+    },
+    {
+     "artist": "ELLA FITZGERALD",
+     "title": "Trouble In Mind"
+    },
+    {
+     "artist": "FREDDIE KING",
+     "title": "Yonder Wall"
+    },
+    {
+     "artist": "HOWLIN' WOLF",
+     "title": "Smokestack Lightnin'"
+    },
+    {
+     "artist": "JIMMY ROGERS",
+     "title": "That's All Right"
+    },
+    {
+     "artist": "JOHN LEE HOOKER",
+     "title": "Boogie Chillen'"
+    },
+    {
+     "artist": "JOHN LEE HOOKER",
+     "title": "Dimples"
+    },
+    {
+     "artist": "JUNIOR KIMBROUGH",
+     "title": "Feels so Good #1"
+    },
+    {
+     "artist": "KEITH RICHARDS",
+     "title": "Bright Lights, Big City"
+    },
+    {
+     "artist": "KOKO TAYLOR",
+     "title": "I Got What It Takes"
+    },
+    {
+     "artist": "LIGHTNIN' HOPKINS",
+     "title": "Back To New Orleans"
+    },
+    {
+     "artist": "LITTLE WALTER FT. MEMPHIS MINNIE",
+     "title": "Me and my Chauffeur"
+    },
+    {
+     "artist": "MUDDY WATERS",
+     "title": "Got My Mojo Working"
+    },
+    {
+     "artist": "SISTER ROSETTA THARPE FT. MARIE KNIGHT & SAM PRICE TRIO",
+     "title": "Didn't It Rain"
+    },
+    {
+     "artist": "SLIM HARPO",
+     "title": "Baby Scratch My Back"
+    },
+    {
+     "artist": "SONNY BOY WILLIAMSON II",
+     "title": "Bring It On Home"
+    }
+   ]
+  },
+  {
+   "name": "Haitian mixtape (no on-screen station name)",
+   "confidence": "medium",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "5LAN FT. TONYMIX",
+     "title": "Kanpe Devan'm"
+    },
+    {
+     "artist": "ALAN CAVÉ",
+     "title": "Chokola"
+    },
+    {
+     "artist": "BARIKAD CREW",
+     "title": "Ou Paka Gangster"
+    },
+    {
+     "artist": "Billy Blue",
+     "title": "Fresh From Head To Toe"
+    },
+    {
+     "artist": "BLACK DADA",
+     "title": "Imma Zoe"
+    },
+    {
+     "artist": "CARIMI",
+     "title": "Are You Ready"
+    },
+    {
+     "artist": "DJ PLATNUM-D",
+     "title": "Ou Paka Fè Sa"
+    },
+    {
+     "artist": "DJAKOUT #1",
+     "title": "La Familia"
+    },
+    {
+     "artist": "EMELINE MICHEL",
+     "title": "Flanm"
+    },
+    {
+     "artist": "JOHN WICKS FT. KODAK BLACK",
+     "title": "Haiti"
+    },
+    {
+     "artist": "KING POSSE",
+     "title": "Koul Non"
+    },
+    {
+     "artist": "KODAK BLACK",
+     "title": "300 Blackout"
+    },
+    {
+     "artist": "KODAK BLACK",
+     "title": "Haitian Scarface"
+    },
+    {
+     "artist": "KODAK BLACK & MICHAËL BRUN",
+     "title": "Tèt Kale Bobis"
+    },
+    {
+     "artist": "MICHAËL BRUN FT. J BALVIN, SAINT JHN, CHARLY BLACK & J PERRY",
+     "title": ""
+    },
+    {
+     "artist": "NAÏKA",
+     "title": "6:45"
+    },
+    {
+     "artist": "QUEEN",
+     "title": "Hammer To Fall"
+    },
+    {
+     "artist": "R DYDY",
+     "title": "Magic Gouyad #6"
+    },
+    {
+     "artist": "ROODY ROODBOY",
+     "title": "Tranble"
+    },
+    {
+     "artist": "T-VICE",
+     "title": "Tu Me Touches"
+    },
+    {
+     "artist": "THE CLASH",
+     "title": "Rock the Casbah"
+    },
+    {
+     "artist": "THE ROLLING STONES",
+     "title": "Emotional Rescue"
+    },
+    {
+     "artist": "TOP ADLERMAN",
+     "title": "Ville"
+    },
+    {
+     "artist": "WYCLEF JEAN FT. MS. LAURYN HILL, CELIA CRUZ & JENI FUJITA",
+     "title": "Guantanamera"
+    },
+    {
+     "artist": "ZENGLEN",
+     "title": "Child Support"
+    }
+   ]
+  },
+  {
+   "name": "Honey FM",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "112",
+     "title": "Dance With Me"
+    },
+    {
+     "artist": "AKON FT. STYLES P",
+     "title": "Locked Up"
+    },
+    {
+     "artist": "BABY BASH FT. T-PAIN",
+     "title": "Cyclone"
+    },
+    {
+     "artist": "BABYFACE",
+     "title": "Whip Appeal"
+    },
+    {
+     "artist": "BARRY WHITE",
+     "title": "Your Sweetness Is My Weakness"
+    },
+    {
+     "artist": "BLOWFLY",
+     "title": "The Vampire That Ate Miami"
+    },
+    {
+     "artist": "BLU CANTRELL",
+     "title": "Hit 'Em Up Style (Oops!)"
+    },
+    {
+     "artist": "BOBBY BROWN",
+     "title": "Humpin' Around"
+    },
+    {
+     "artist": "BRANDY",
+     "title": "Baby"
+    },
+    {
+     "artist": "BRANDY & MONICA",
+     "title": "The Boy Is Mine"
+    },
+    {
+     "artist": "CHINGY FT. TYRESE",
+     "title": "Pullin' Me Back"
+    },
+    {
+     "artist": "COLOR ME BADD",
+     "title": "I Adore Mi Amor"
+    },
+    {
+     "artist": "D'ANGELO",
+     "title": "Lady"
+    },
+    {
+     "artist": "EGYPTIAN LOVER",
+     "title": "I Need a Freak"
+    },
+    {
+     "artist": "FAITH EVANS",
+     "title": "Love Like This"
+    },
+    {
+     "artist": "GROOVE THEORY",
+     "title": "Tell Me"
+    },
+    {
+     "artist": "JAGGED EDGE FT. NELLY",
+     "title": "Where The Party At"
+    },
+    {
+     "artist": "JEREMIH",
+     "title": "Birthday Sex"
+    },
+    {
+     "artist": "JODECI",
+     "title": "Feenin'"
+    },
+    {
+     "artist": "JODY WATLEY",
+     "title": "Looking For A New Love"
+    },
+    {
+     "artist": "JOE FT. G-UNIT",
+     "title": "Ride Wit U"
+    },
+    {
+     "artist": "KEITH SWEAT",
+     "title": "Twisted"
+    },
+    {
+     "artist": "KEVIN LYTTLE",
+     "title": "Turn Me On"
+    },
+    {
+     "artist": "KLEEER",
+     "title": "Intimate Connection"
+    },
+    {
+     "artist": "LEVERT",
+     "title": "Casanova"
+    },
+    {
+     "artist": "LIQUID CITY",
+     "title": ""
+    },
+    {
+     "artist": "LOOSE ENDS",
+     "title": "Slow Down"
+    },
+    {
+     "artist": "MARIAH CAREY FT. JERMAINE DUPRI",
+     "title": "Get Your Number"
+    },
+    {
+     "artist": "MARY J. BLIGE",
+     "title": "My Life"
+    },
+    {
+     "artist": "MIDNIGHT STAR",
+     "title": "Slow Jam"
+    },
+    {
+     "artist": "MONTELL JORDAN",
+     "title": "Get It On Tonite"
+    },
+    {
+     "artist": "NEXT",
+     "title": "Too Close"
+    },
+    {
+     "artist": "PARLIAMENT",
+     "title": "Handcuffs"
+    },
+    {
+     "artist": "PORTRAIT",
+     "title": "Here We Go Again!"
+    },
+    {
+     "artist": "PRETTY RICKY",
+     "title": "On The Hotline"
+    },
+    {
+     "artist": "RICK JAMES",
+     "title": "She Blew My Mind (69 Times)"
+    },
+    {
+     "artist": "ROSE ROYCE",
+     "title": "Love Don't Live Here Anymore"
+    },
+    {
+     "artist": "SILK",
+     "title": "Freak Me"
+    },
+    {
+     "artist": "SOUNDS OF BLACKNESS",
+     "title": "Optimistic"
+    },
+    {
+     "artist": "T-Pain FT. YUNG JOC",
+     "title": "Buy U A Drank (Shawty Snappin')"
+    },
+    {
+     "artist": "TLC",
+     "title": "Creep"
+    },
+    {
+     "artist": "TLC",
+     "title": "What About Your Friends"
+    },
+    {
+     "artist": "TONI BRAXTON",
+     "title": "You're Makin' Me High"
+    },
+    {
+     "artist": "TONI BRAXTON FT. LOON",
+     "title": "Hit The Freeway"
+    },
+    {
+     "artist": "TONY! TONI! TONÉ!",
+     "title": "Feels Good"
+    },
+    {
+     "artist": "TOTAL FT. THE NOTORIOUS B.I.G.",
+     "title": "Can't You See"
+    },
+    {
+     "artist": "USHER",
+     "title": "Bad Girl"
+    },
+    {
+     "artist": "WAYNE WONDER",
+     "title": "No Letting Go"
+    },
+    {
+     "artist": "ZHANÉ",
+     "title": "Hey Mr. D.J."
+    }
+   ]
+  },
+  {
+   "name": "Kaleidoscope FM",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "ALIM QASIMOV & FARGANA QASIMOVA",
+     "title": "Say It Right"
+    },
+    {
+     "artist": "ALKISTIS PROTOPSALTI",
+     "title": "Ola Afta Pou Fovamai"
+    },
+    {
+     "artist": "BRAZIL",
+     "title": "Tvoj Svijet"
+    },
+    {
+     "artist": "DON MELODY CLUB",
+     "title": "T' Materiaal"
+    },
+    {
+     "artist": "FADOUL",
+     "title": "Al Zman Saib"
+    },
+    {
+     "artist": "GEORGE LAM",
+     "title": "Gan Ai Gan Zuo"
+    },
+    {
+     "artist": "HEINZ RUDOLF KUNZE",
+     "title": "Lola"
+    },
+    {
+     "artist": "Kumbia Queers",
+     "title": "Kumbia Dark"
+    },
+    {
+     "artist": "LAIBACH",
+     "title": "Geburt Einer Nation"
+    },
+    {
+     "artist": "MEXICAN INSTITUTE OF SOUND",
+     "title": "Sinfonía Agridulce"
+    },
+    {
+     "artist": "MONA CARITA",
+     "title": "Gloria"
+    },
+    {
+     "artist": "PHUONG THANH",
+     "title": ""
+    },
+    {
+     "artist": "ROLF BERGSTRÖM & PYHIMYKSET",
+     "title": "Rokkibaby"
+    },
+    {
+     "artist": "RON",
+     "title": "Hai Capito O No?"
+    },
+    {
+     "artist": "SYLVIE VARTAN",
+     "title": "Danse Ta Vie"
+    },
+    {
+     "artist": "TOURÉ KUNDA",
+     "title": "Nobel"
+    },
+    {
+     "artist": "TREVOR M. SIMPSON & HI LO SINGERS",
+     "title": "Stupid Girl"
+    },
+    {
+     "artist": "WIM DAMRI",
+     "title": "Ies Manziel"
+    }
+   ]
+  },
+  {
+   "name": "Leonida Jazz Radio",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "AZYMUTH",
+     "title": "Águia Não Come Mosca"
+    },
+    {
+     "artist": "BADBADNOTGOOD & RANDY BRECKER",
+     "title": "Blowin' Smoke"
+    },
+    {
+     "artist": "BILLY COBHAM",
+     "title": "Crosswind"
+    },
+    {
+     "artist": "BOB JAMES",
+     "title": "Night Crawler"
+    },
+    {
+     "artist": "BOB JAMES & DAVID SANBORN",
+     "title": "Maputo"
+    },
+    {
+     "artist": "CASIOPEA",
+     "title": "Time Limit"
+    },
+    {
+     "artist": "DAVE GRUSIN",
+     "title": "Friends And Strangers"
+    },
+    {
+     "artist": "DAVE GRUSIN",
+     "title": "Modaji"
+    },
+    {
+     "artist": "DAVID SANBORN",
+     "title": "Breaking Point"
+    },
+    {
+     "artist": "DOMI & JD BECK",
+     "title": "Whatup"
+    },
+    {
+     "artist": "DONNY HATHAWAY",
+     "title": "Valdez In The Country"
+    },
+    {
+     "artist": "EUGE GROOVE",
+     "title": "Mr. Groove"
+    },
+    {
+     "artist": "FUSE ONE",
+     "title": "Silk"
+    },
+    {
+     "artist": "GROVER WASHINGTON, JR.",
+     "title": "Mister Magic"
+    },
+    {
+     "artist": "HERB ALPERT",
+     "title": "Rotation"
+    },
+    {
+     "artist": "JAN HAMMER GROUP",
+     "title": "Don't You Know"
+    },
+    {
+     "artist": "JOE ARMON-JONES",
+     "title": "Hotel Alphonso"
+    },
+    {
+     "artist": "KAIDI TATHAM FT. STRO ELLIOT",
+     "title": "Stro Kyat"
+    },
+    {
+     "artist": "KOKOROKO",
+     "title": "Tojo"
+    },
+    {
+     "artist": "MARCUS MILLER",
+     "title": "Power"
+    },
+    {
+     "artist": "MILES DAVIS",
+     "title": "Mystery"
+    },
+    {
+     "artist": "MOSES BOYD",
+     "title": "Rye Lane Shuffle"
+    },
+    {
+     "artist": "MOSES YOOFEE TRIO",
+     "title": "Whip.wav"
+    },
+    {
+     "artist": "NAJEE",
+     "title": "Betcha Don't Know"
+    },
+    {
+     "artist": "PLACEBO",
+     "title": "Humpty Dumpty"
+    },
+    {
+     "artist": "RETURN TO FOREVER",
+     "title": "Sorceress"
+    },
+    {
+     "artist": "RONNIE LAWS",
+     "title": "Always There"
+    },
+    {
+     "artist": "STANLEY CLARKE",
+     "title": "School Days"
+    },
+    {
+     "artist": "STANLEY CLARKE & GEORGE DUKE",
+     "title": "Wild Dog"
+    },
+    {
+     "artist": "STANLEY CLARKE, YUSSEF DAYES & ROBERT GLASPER",
+     "title": "Overtown Lights"
+    },
+    {
+     "artist": "THE BRECKER BROTHERS",
+     "title": "Funky Sea, Funky Dew"
+    },
+    {
+     "artist": "THE BRECKER BROTHERS",
+     "title": "Scrunch"
+    },
+    {
+     "artist": "THE KOUNT & CARRTOONS",
+     "title": "On My Way"
+    },
+    {
+     "artist": "THUNDERCAT",
+     "title": "Fleer Ultra"
+    },
+    {
+     "artist": "TOM BROWNE",
+     "title": "Forever More"
+    },
+    {
+     "artist": "VENNA, YUSSEF DAYES, MARCO BERNARDIS FT. ROCCO PALLADINO",
+     "title": "Sicily' Box"
+    },
+    {
+     "artist": "WEATHER REPORT",
+     "title": "Birdland"
+    }
+   ]
+  },
+  {
+   "name": "Radio La Ola",
+   "confidence": "medium",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "BANDA BLANCA",
+     "title": "Sopa de Caracol"
+    },
+    {
+     "artist": "BENNY MORÉ",
+     "title": "Que Bueno Baila Usted"
+    },
+    {
+     "artist": "CACHAO",
+     "title": "Descarga Cubana"
+    },
+    {
+     "artist": "CELIA CRUZ",
+     "title": "Bemba Colorá"
+    },
+    {
+     "artist": "CELIA CRUZ, JUSTO BETANCOURT, JOHNNY PACHECO & PAPO LUCCA",
+     "title": "Besito De Coco"
+    },
+    {
+     "artist": "CHARLIE PALMIERI",
+     "title": "La Hija De Lola"
+    },
+    {
+     "artist": "CHEO FELICIANO",
+     "title": "Anacaona"
+    },
+    {
+     "artist": "EL GRAN COMBO DE PUERTO RICO",
+     "title": "Brujeria"
+    },
+    {
+     "artist": "EL GRAN COMBO DE PUERTO RICO",
+     "title": "No Hay Cama Pa' Tanta Gente"
+    },
+    {
+     "artist": "FRANKIE RUIZ",
+     "title": "Tú Con Él"
+    },
+    {
+     "artist": "GLORIA ESTEFAN",
+     "title": "Mi Tierra"
+    },
+    {
+     "artist": "HANSEL Y RAUL",
+     "title": "Kuku-Cha Ku-Cha"
+    },
+    {
+     "artist": "HÉCTOR LAVOE",
+     "title": "Periódico de Ayer"
+    },
+    {
+     "artist": "JOE ARROYO Y LA VERDAD",
+     "title": "Rebelión (No Le Pegue a la Negra)"
+    },
+    {
+     "artist": "JOSSIE ESTEBAN & LA PATRULLA 15",
+     "title": "El Tigueron"
+    },
+    {
+     "artist": "JOSÉ LUIS RODRÍGUEZ",
+     "title": "Pavo Real"
+    },
+    {
+     "artist": "ORQUESTA HARLOW & LARRY HARLOW FT. JUNIOR GONZALEZ",
+     "title": "La Cartera"
+    },
+    {
+     "artist": "OSCAR D'LEÓN",
+     "title": "Llorarás"
+    },
+    {
+     "artist": "PETE \"EL CONDE\" RODRÍGUEZ",
+     "title": "Catalina la O"
+    },
+    {
+     "artist": "ROBERTO TORRES",
+     "title": "Caballo Viejo"
+    },
+    {
+     "artist": "WILFRIDO VARGAS",
+     "title": "Abusadora"
+    },
+    {
+     "artist": "WILLIE COLÓN & RUBÉN BLADES",
+     "title": "Ligia Elena"
+    },
+    {
+     "artist": "WILLIE COLÓN & RUBÉN BLADES",
+     "title": "Pedro Navaja"
+    },
+    {
+     "artist": "WILLY CHIRINO",
+     "title": "Soy Guajiro"
+    },
+    {
+     "artist": "WILLY CHIRINO & ALBITA RODRÍGUEZ",
+     "title": "Que Viva Changó"
+    }
+   ]
+  },
+  {
+   "name": "Radio On-U",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "ADRIAN SHERWOOD",
+     "title": "Dub Inspector"
+    },
+    {
+     "artist": "AUGUSTUS PABLO",
+     "title": "Ras Menilik Congo (Harp)"
+    },
+    {
+     "artist": "CARROLL THOMPSON",
+     "title": "I'm So Sorry"
+    },
+    {
+     "artist": "CREATION REBEL",
+     "title": "Frontline Dub"
+    },
+    {
+     "artist": "FREDDIE MCGREGOR",
+     "title": "BIG SHIP"
+    },
+    {
+     "artist": "GREGORY ISAACS",
+     "title": "Mr. Cop"
+    },
+    {
+     "artist": "HORACE ANDY",
+     "title": "Skylarking"
+    },
+    {
+     "artist": "JANET KAY",
+     "title": "Silly Games"
+    },
+    {
+     "artist": "JENNIFER LARA",
+     "title": "I Am In Love"
+    },
+    {
+     "artist": "KEN BOOTHE",
+     "title": "Everything I Own"
+    },
+    {
+     "artist": "KING JAMMY",
+     "title": "Under Me Sleng Teng Version"
+    },
+    {
+     "artist": "LEE \"SCRATCH\" PERRY & THE UPSETTERS",
+     "title": "Black Panta"
+    },
+    {
+     "artist": "LOUISA MARK",
+     "title": "Caught You In A Lie"
+    },
+    {
+     "artist": "SUSAN CADOGAN",
+     "title": "Hurt So Good"
+    },
+    {
+     "artist": "THE AGGROVATORS, LINVAL THOMPSON, BUNNY LEE & PRINCE FATTY",
+     "title": "Jah Jah Dub The Conqueror"
+    },
+    {
+     "artist": "THE REVOLUTIONARIES",
+     "title": "Ragnampaiza Version"
+    }
+   ]
+  },
+  {
+   "name": "Stockyard FM",
+   "confidence": "medium",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "!!!",
+     "title": "All U Writers"
+    },
+    {
+     "artist": "!!! FT. MEAH PACE",
+     "title": "Off The Grid"
+    },
+    {
+     "artist": "ALEX FRANKEL",
+     "title": "Playa Rosa"
+    },
+    {
+     "artist": "CARIBOU",
+     "title": "Never Come Back"
+    },
+    {
+     "artist": "CMD/CTRL",
+     "title": "No Stress"
+    },
+    {
+     "artist": "DEF LEPPARD",
+     "title": "Comin' Under Fire"
+    },
+    {
+     "artist": "ELDERBROOK & BOB MOSES",
+     "title": "Inner Light"
+    },
+    {
+     "artist": "FAVORED NATIONS",
+     "title": "There is Only Us"
+    },
+    {
+     "artist": "FCUKERS",
+     "title": "Only One"
+    },
+    {
+     "artist": "FRED JESSE",
+     "title": "Bring Me Down"
+    },
+    {
+     "artist": "GENER8ION & YUNG LEAN",
+     "title": "STORM I"
+    },
+    {
+     "artist": "HEALTH",
+     "title": "Nightmare"
+    },
+    {
+     "artist": "HOT CHIP",
+     "title": "Hungry Child"
+    },
+    {
+     "artist": "JANE'S ADDICTION",
+     "title": "Had A Dad"
+    },
+    {
+     "artist": "JUSTICE & TAME IMPALA",
+     "title": "One Night/All Night"
+    },
+    {
+     "artist": "JUSTICE FT. RIMON",
+     "title": "Afterimage"
+    },
+    {
+     "artist": "KITTY CA$H, THUNDERCAT & JAMES FAUNTLEROY",
+     "title": "Time Machine"
+    },
+    {
+     "artist": "MOUNT KIMBIE",
+     "title": "Monroe"
+    },
+    {
+     "artist": "MÅNESKIN",
+     "title": "I Wanna Be Your Slave"
+    },
+    {
+     "artist": "NEIL FRANCES",
+     "title": "You Move Me"
+    },
+    {
+     "artist": "OVERMONO",
+     "title": "Good Lies"
+    },
+    {
+     "artist": "PINKPANTHERESS",
+     "title": "Illegal"
+    },
+    {
+     "artist": "PSYCHIC MIRRORS",
+     "title": "French Dip"
+    },
+    {
+     "artist": "SHYGIRL, EMPRESS OF & KINGDOM",
+     "title": "4EVA"
+    },
+    {
+     "artist": "SLAYYYTER",
+     "title": "INTERNET $TAR"
+    },
+    {
+     "artist": "THE DARE",
+     "title": "Interesting"
+    },
+    {
+     "artist": "TOMMY RICHMAN",
+     "title": "Million Dollar Baby"
+    },
+    {
+     "artist": "UNDERSCORES",
+     "title": "Do It"
+    },
+    {
+     "artist": "WHOMADEWHO & RAMPA",
+     "title": "Abu Simbel"
+    },
+    {
+     "artist": "ZIMMER90",
+     "title": "What Love Is"
+    }
+   ]
+  },
+  {
+   "name": "Symphony FM",
+   "confidence": "medium",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "CLAUDE DEBUSSY",
+     "title": "Nocturnes, L. 91: II. Fêtes"
+    },
+    {
+     "artist": "DMITRI SHOSTAKOVICH",
+     "title": "Symphony No. 5 in D Minor, Op. 47: IV. Allegro non troppo"
+    },
+    {
+     "artist": "FRANZ LISZT",
+     "title": "Les préludes, S. 97"
+    },
+    {
+     "artist": "FRANZ SCHUBERT",
+     "title": "Erlkönig, Op. 1, D. 328"
+    },
+    {
+     "artist": "GEORGE FRIDERIC HANDEL",
+     "title": "Messiah, HWV 56: Pt. III: Aria. I know That my Redeemer liveth (Soprano)"
+    },
+    {
+     "artist": "GUSTAV MAHLER",
+     "title": "Symphony No. 6 in A Minor \"Tragic\": I. Allegro energico, ma non troppo. Heftig, aber markig"
+    },
+    {
+     "artist": "JEAN SIBELIUS",
+     "title": "Symphony No. 5 in E-Flat major Op. 82: III. Allegro molto"
+    },
+    {
+     "artist": "JOHANN SEBASTIAN BACH",
+     "title": "Mass in B Minor, BWV 232: Sanctus"
+    },
+    {
+     "artist": "JOHANNES BRAHMS",
+     "title": "Symphony No. 3 in F Major, Op. 90: III. Poco allegretto (Goodbye Again)"
+    },
+    {
+     "artist": "LEOŠ JANÁČEK",
+     "title": "Sinfonietta, JW VI/18: V. Allegro"
+    },
+    {
+     "artist": "LUDWIG VAN BEETHOVEN",
+     "title": "Symphony No. 7 in A Major, Op. 92: II. Allegretto"
+    },
+    {
+     "artist": "MAURICE RAVEL",
+     "title": "La valse, M. 72"
+    },
+    {
+     "artist": "PYOTR IL'YICH TCHAIKOVSKY",
+     "title": "Symphony No. 5 in E Minor, Op. 64, TH 29: IV. Andante maestoso - Allegro vivace"
+    },
+    {
+     "artist": "SERGEI PROKOFIEV",
+     "title": "Piano Concerto No. 2 in G Minor, Op. 16: IV. Finale (Allegro tempestoso)"
+    },
+    {
+     "artist": "WITOLD LUTOSŁAWSKI",
+     "title": "Concerto for Orchestra: I. Intrada Allegro maestoso"
+    },
+    {
+     "artist": "WOLFGANG AMADEUS MOZART",
+     "title": "Sinfonia concertante for Violin and Viola in E-Flat Major, K. 364: II. Andante"
+    }
+   ]
+  },
+  {
+   "name": "The Chamber 106.6",
+   "confidence": "medium",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "ANTHRAX",
+     "title": "I Am The Law"
+    },
+    {
+     "artist": "BLACK SABBATH",
+     "title": "I"
+    },
+    {
+     "artist": "DIO",
+     "title": "We Rock"
+    },
+    {
+     "artist": "EXODUS",
+     "title": "Bonded By Blood"
+    },
+    {
+     "artist": "FLOTSAM & JETSAM",
+     "title": "Hammerhead"
+    },
+    {
+     "artist": "IRON MAIDEN",
+     "title": "The Trooper"
+    },
+    {
+     "artist": "JUDAS PRIEST",
+     "title": "Freewheel Burning"
+    },
+    {
+     "artist": "KORN",
+     "title": "Freak On A Leash"
+    },
+    {
+     "artist": "LINKIN PARK",
+     "title": "In The End"
+    },
+    {
+     "artist": "MASTODON",
+     "title": "Blood And Thunder"
+    },
+    {
+     "artist": "MEGADETH",
+     "title": "Symphony Of Destruction"
+    },
+    {
+     "artist": "METALLICA",
+     "title": "Master Of Puppets"
+    },
+    {
+     "artist": "METALLICA",
+     "title": "Seek & Destroy"
+    },
+    {
+     "artist": "OVERKILL",
+     "title": "Rotten To The Core"
+    },
+    {
+     "artist": "PANTERA",
+     "title": "I'm Broken"
+    },
+    {
+     "artist": "POWER TRIP",
+     "title": "Mutual Death Warrant"
+    },
+    {
+     "artist": "SEPULTURA",
+     "title": "Territory"
+    },
+    {
+     "artist": "SLAYER",
+     "title": "Payback"
+    },
+    {
+     "artist": "SLAYER",
+     "title": "Raining Blood"
+    },
+    {
+     "artist": "SYSTEM OF A DOWN",
+     "title": "Sugar"
+    },
+    {
+     "artist": "TESTAMENT",
+     "title": "Over the Wall"
+    },
+    {
+     "artist": "TOOL",
+     "title": "Sober"
+    },
+    {
+     "artist": "VENOM",
+     "title": "Countess Bathory"
+    },
+    {
+     "artist": "Voivod",
+     "title": "Panorama"
+    }
+   ]
+  },
+  {
+   "name": "V-Rock",
+   "confidence": "low",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "38 SPECIAL",
+     "title": "Rockin' Into The Night"
+    },
+    {
+     "artist": "AC/DC",
+     "title": "Sin City"
+    },
+    {
+     "artist": "AEROSMITH",
+     "title": "Livin' On The Edge"
+    },
+    {
+     "artist": "APRIL WINE",
+     "title": "Roller"
+    },
+    {
+     "artist": "BAD COMPANY",
+     "title": "Rock 'N' Roll Fantasy"
+    },
+    {
+     "artist": "BILLY SQUIER",
+     "title": "Everybody Wants You"
+    },
+    {
+     "artist": "BOB SEGER",
+     "title": "Shakedown"
+    },
+    {
+     "artist": "BON JOVI",
+     "title": "Runaway"
+    },
+    {
+     "artist": "CHRISTOPHER CROSS",
+     "title": "Ride Like The Wind"
+    },
+    {
+     "artist": "DAVID LEE ROTH",
+     "title": "Just Like Paradise"
+    },
+    {
+     "artist": "DEF LEPPARD",
+     "title": "Pour Some Sugar On Me"
+    },
+    {
+     "artist": "Eddie Money",
+     "title": "Take Me Home Tonight"
+    },
+    {
+     "artist": "ERIC CLAPTON",
+     "title": "Bad Love"
+    },
+    {
+     "artist": "ERIC CLAPTON",
+     "title": "Cocaine"
+    },
+    {
+     "artist": "FLEETWOOD MAC",
+     "title": "Big Love"
+    },
+    {
+     "artist": "FOREIGNER",
+     "title": "Urgent"
+    },
+    {
+     "artist": "GERRY RAFFERTY",
+     "title": "Get It Right Next Time"
+    },
+    {
+     "artist": "GERRY RAFFERTY",
+     "title": "Right Down The Line"
+    },
+    {
+     "artist": "Gino Vannelli",
+     "title": "Black Cars"
+    },
+    {
+     "artist": "HARRY NILSSON",
+     "title": "Jump Into The Fire"
+    },
+    {
+     "artist": "JAY FERGUSON",
+     "title": "Thunder Island"
+    },
+    {
+     "artist": "Jefferson Starship",
+     "title": "Find Your Way Back"
+    },
+    {
+     "artist": "John Mellencamp",
+     "title": "Jack & Diane"
+    },
+    {
+     "artist": "JOHN PARR",
+     "title": "Naughty Naughty"
+    },
+    {
+     "artist": "KENNY LOGGINS",
+     "title": "Heart To Heart"
+    },
+    {
+     "artist": "Kenny Loggins",
+     "title": "I'm Alright"
+    },
+    {
+     "artist": "KISS",
+     "title": "Sure Know Something"
+    },
+    {
+     "artist": "LINDSEY BUCKINGHAM",
+     "title": "Go Insane"
+    },
+    {
+     "artist": "LINDSEY BUCKINGHAM",
+     "title": "Trouble"
+    },
+    {
+     "artist": "Loverboy",
+     "title": "Lovin' Every Minute Of It"
+    },
+    {
+     "artist": "MICHAEL MCDONALD",
+     "title": "I Gotta Try"
+    },
+    {
+     "artist": "MÖTLEY CRÜE",
+     "title": "Dr. Feelgood"
+    },
+    {
+     "artist": "POISON",
+     "title": "Nothin' But A Good Time"
+    },
+    {
+     "artist": "RED RIDER",
+     "title": "Lunatic Fringe"
+    },
+    {
+     "artist": "REO Speedwagon",
+     "title": "Take It On The Run"
+    },
+    {
+     "artist": "STEPHEN STILLS",
+     "title": "Love The One You're With"
+    },
+    {
+     "artist": "STEPHEN STILLS",
+     "title": "Stranger"
+    },
+    {
+     "artist": "STEVE MILLER BAND",
+     "title": "Take The Money And Run"
+    },
+    {
+     "artist": "STEVE WINWOOD",
+     "title": "Freedom Overspill"
+    },
+    {
+     "artist": "STYX",
+     "title": "Too Much Time On My Hands"
+    },
+    {
+     "artist": "THE DOOBIE BROTHERS",
+     "title": "It Keeps You Runnin'"
+    },
+    {
+     "artist": "THE DOOBIE BROTHERS",
+     "title": "Takin' It To The Streets"
+    },
+    {
+     "artist": "THE KINKS",
+     "title": "Living On A Thin Line"
+    },
+    {
+     "artist": "The Romantics",
+     "title": "Talking In Your Sleep"
+    },
+    {
+     "artist": "THE WHO",
+     "title": "Bargain"
+    },
+    {
+     "artist": "TODD RUNDGREN",
+     "title": "I Saw The Light"
+    },
+    {
+     "artist": "TOM PETTY",
+     "title": "Love Is A Long Road"
+    },
+    {
+     "artist": "TOM PETTY",
+     "title": "Wildflowers"
+    },
+    {
+     "artist": "TOM PETTY",
+     "title": "You Wreck Me"
+    },
+    {
+     "artist": "TOM PETTY AND THE HEARTBREAKERS",
+     "title": "Between Two Worlds"
+    },
+    {
+     "artist": "TOM PETTY AND THE HEARTBREAKERS",
+     "title": "Dogs On The Run"
+    },
+    {
+     "artist": "TOM PETTY AND THE HEARTBREAKERS",
+     "title": "The Damage You've Done"
+    },
+    {
+     "artist": "TOM PETTY AND THE HEARTBREAKERS",
+     "title": "The Wild One, Forever"
+    },
+    {
+     "artist": "TOTO",
+     "title": "Georgy Porgy"
+    },
+    {
+     "artist": "U2",
+     "title": "The Unforgettable Fire"
+    },
+    {
+     "artist": "VAN HALEN",
+     "title": "Panama"
+    },
+    {
+     "artist": "WARREN ZEVON",
+     "title": "Lawyers, Guns And Money"
+    },
+    {
+     "artist": "ZZ TOP",
+     "title": "Got Me Under Pressure"
+    }
+   ]
+  },
+  {
+   "name": "VCRR",
+   "confidence": "medium",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "21 Savage",
+     "title": "Cookin"
+    },
+    {
+     "artist": "310BABII, BLUEFACE & TYGA FT. OHGEESY & BLUEBUCKSCLAN",
+     "title": "Soak City (Do It)"
+    },
+    {
+     "artist": "A BOOGIE WIT DA HOODIE FT. ELKAN",
+     "title": "Dance With Me"
+    },
+    {
+     "artist": "ATL JACOB",
+     "title": "I'm a Monster"
+    },
+    {
+     "artist": "ATL JACOB, BIG BOSS VETTE & RUSHDEE",
+     "title": "Boss Shit"
+    },
+    {
+     "artist": "BELLY GANG KUSHINGTON FT. YKNIECE",
+     "title": "Friend Do Remix"
+    },
+    {
+     "artist": "BOSSMAN DLOW",
+     "title": "LEFT WRIST"
+    },
+    {
+     "artist": "BOSSMAN DLOW",
+     "title": "Mr Pot Scraper"
+    },
+    {
+     "artist": "BOSSMAN DLOW",
+     "title": "Shake Dat Ass (Twerk Song)"
+    },
+    {
+     "artist": "BUNNAB",
+     "title": "Go Go Go"
+    },
+    {
+     "artist": "CARDI B",
+     "title": "Don't Chart"
+    },
+    {
+     "artist": "CARDI B",
+     "title": "Outside"
+    },
+    {
+     "artist": "CARDI B",
+     "title": "Up"
+    },
+    {
+     "artist": "CENTRAL CEE",
+     "title": "Rock N Roll"
+    },
+    {
+     "artist": "CENTRAL CEE FT. LIL BABY",
+     "title": "BAND4BAND"
+    },
+    {
+     "artist": "COI LERAY",
+     "title": "Players"
+    },
+    {
+     "artist": "DENZEL CURRY",
+     "title": "Catch Up Witcha Kind"
+    },
+    {
+     "artist": "DENZEL CURRY FT. 454",
+     "title": "FLA Flow"
+    },
+    {
+     "artist": "DJ KHALED FT. LATTO & CITY GIRLS",
+     "title": "Bills Paid"
+    },
+    {
+     "artist": "DJ STEVIE J",
+     "title": "OFF MY CHEST"
+    },
+    {
+     "artist": "DON TOLIVER",
+     "title": "TF?"
+    },
+    {
+     "artist": "DRAKE",
+     "title": "NOKIA"
+    },
+    {
+     "artist": "DRAKE",
+     "title": "Nonstop"
+    },
+    {
+     "artist": "DWNPLY",
+     "title": "Pax"
+    },
+    {
+     "artist": "DWNPLY",
+     "title": "Politik"
+    },
+    {
+     "artist": "DWNPLY FT. REAL DIMEZ",
+     "title": "Bulletproof Ski Mask"
+    },
+    {
+     "artist": "FAMOUS SALLY & YB",
+     "title": "Wassup Gway"
+    },
+    {
+     "artist": "FRENCH MONTANA FT. SWAE LEE",
+     "title": "Unforgettable"
+    },
+    {
+     "artist": "FUTURE",
+     "title": "712PM"
+    },
+    {
+     "artist": "FUTURE",
+     "title": "XANNY FAMILY"
+    },
+    {
+     "artist": "FUTURE & METRO BOOMIN",
+     "title": "Fried (She a Vibe)"
+    },
+    {
+     "artist": "FUTURE & YOUNG THUG",
+     "title": "All da Smoke"
+    },
+    {
+     "artist": "FUTURE, METRO BOOMIN, TRAVIS SCOTT & PLAYBOI CARTI",
+     "title": "Type Shit"
+    },
+    {
+     "artist": "GLORILLA",
+     "title": "TGIF"
+    },
+    {
+     "artist": "GLORILLA FT. SEXYY RED",
+     "title": "WHATCHU KNO ABOUT ME"
+    },
+    {
+     "artist": "GUNNA",
+     "title": "Count Up"
+    },
+    {
+     "artist": "HXG FT. TANA & QUAVO",
+     "title": "RCKSTRLIVING"
+    },
+    {
+     "artist": "ICEWEAR VEZZO",
+     "title": "Back On The Road"
+    },
+    {
+     "artist": "JT",
+     "title": "GMA"
+    },
+    {
+     "artist": "KEVIN GATES",
+     "title": "2 Phones"
+    },
+    {
+     "artist": "KEY GLOCK",
+     "title": "DUMMY"
+    },
+    {
+     "artist": "KEY GLOCK & TAY KEITH",
+     "title": "Maybach Coupe"
+    },
+    {
+     "artist": "KODAK BLACK",
+     "title": "No Flockin'"
+    },
+    {
+     "artist": "KODAK BLACK",
+     "title": "Skrilla"
+    },
+    {
+     "artist": "KODAK BLACK",
+     "title": "Super Gremlin"
+    },
+    {
+     "artist": "KODAK BLACK & DON TOLIVER",
+     "title": "Let's Rock"
+    },
+    {
+     "artist": "KODAK BLACK FT. XXXTENTACION",
+     "title": "Roll in Peace"
+    },
+    {
+     "artist": "LATTO",
+     "title": "Big Mama"
+    },
+    {
+     "artist": "LATTO",
+     "title": "Brokey"
+    },
+    {
+     "artist": "LATTO FT. FLO MILLI",
+     "title": "Go Shorty"
+    },
+    {
+     "artist": "LIL BABY & MONEYBAGG YO",
+     "title": "No Sucker"
+    },
+    {
+     "artist": "LIL BABY, YOUNG THUG & FUTURE",
+     "title": "Dum, Dumb, and Dumber"
+    },
+    {
+     "artist": "LIL UZI VERT",
+     "title": "Just Wanna Rock"
+    },
+    {
+     "artist": "MIGOS",
+     "title": "T-Shirt"
+    },
+    {
+     "artist": "MIGOS FT. LIL UZI VERT",
+     "title": "Bad and Boujee"
+    },
+    {
+     "artist": "MUSTARD FT. QUAVO & ROB49",
+     "title": "One of Them Ones"
+    },
+    {
+     "artist": "NEMZZZ FT. TRAVIS SCOTT",
+     "title": "Gass"
+    },
+    {
+     "artist": "OFFSET",
+     "title": "I Just Came To Pop It"
+    },
+    {
+     "artist": "PLAYBOI CARTI",
+     "title": "AHH YEA"
+    },
+    {
+     "artist": "PLUTO & YKNIECE",
+     "title": "WHIM WHAMIEE"
+    },
+    {
+     "artist": "POOH SHIESTY",
+     "title": "7.62 God"
+    },
+    {
+     "artist": "POOH SHIESTY",
+     "title": "Got Dat"
+    },
+    {
+     "artist": "POP SMOKE",
+     "title": "Dior"
+    },
+    {
+     "artist": "REAL BOSTON RICHEY",
+     "title": "Help Me"
+    },
+    {
+     "artist": "REAL DIMEZ",
+     "title": "Fuck These Hoes"
+    },
+    {
+     "artist": "REAL DIMEZ",
+     "title": "Vibin' With The Dimez"
+    },
+    {
+     "artist": "REAL DIMEZ FT. SEXYY RED",
+     "title": "Cooties (Remix)"
+    },
+    {
+     "artist": "SEXYY RED",
+     "title": "Hoochie Coochie"
+    },
+    {
+     "artist": "SEXYY RED",
+     "title": "SkeeYee"
+    },
+    {
+     "artist": "SEXYY RED & TAY KEITH",
+     "title": "Pound Town"
+    },
+    {
+     "artist": "SHECK WES",
+     "title": "Mo Bamba"
+    },
+    {
+     "artist": "SOFAYGO",
+     "title": "Cashout"
+    },
+    {
+     "artist": "SOULJA BOY FT. FRENCH MONTANA",
+     "title": "She Make It Clap (Remix)"
+    },
+    {
+     "artist": "TEE GRIZZLEY",
+     "title": "IKYFL"
+    },
+    {
+     "artist": "TRAVIS SCOTT",
+     "title": "Rhyno"
+    },
+    {
+     "artist": "TRAVIS SCOTT",
+     "title": "SICKO MODE"
+    },
+    {
+     "artist": "TRAVIS SCOTT & SOFAYGO",
+     "title": "CONTEST"
+    },
+    {
+     "artist": "TRAVIS SCOTT FT. PLAYBOI CARTI",
+     "title": "FE!N"
+    },
+    {
+     "artist": "YO GOTTI FT. NICKI MINAJ",
+     "title": "Rake It Up"
+    },
+    {
+     "artist": "YOUNG NUDY",
+     "title": "Don Da Da"
+    },
+    {
+     "artist": "YOUNG THUG",
+     "title": "Digits"
+    },
+    {
+     "artist": "YOUNG THUG",
+     "title": "Wakin Up Flex"
+    },
+    {
+     "artist": "YUNG LEAN FT. FUTURE & METRO BOOMIN",
+     "title": "That's It"
+    },
+    {
+     "artist": "ZOEY DOLLAZ",
+     "title": "Blow A Check"
+    }
+   ]
+  },
+  {
+   "name": "Vice City FM",
+   "confidence": "medium",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "A Flock Of Seagulls",
+     "title": "Wishing (If I Had A Photograph Of You)"
+    },
+    {
+     "artist": "ABC",
+     "title": "Vanity Kills"
+    },
+    {
+     "artist": "ALEXANDER O'NEAL",
+     "title": "Fake"
+    },
+    {
+     "artist": "ASHFORD & SIMPSON",
+     "title": "Solid"
+    },
+    {
+     "artist": "BELOUIS SOME",
+     "title": "Imagination"
+    },
+    {
+     "artist": "BIG AUDIO DYNAMITE",
+     "title": "E=MC2"
+    },
+    {
+     "artist": "BILLY IDOL",
+     "title": "Flesh For Fantasy"
+    },
+    {
+     "artist": "BILLY OCEAN",
+     "title": "Loverboy"
+    },
+    {
+     "artist": "BLANCMANGE",
+     "title": "Don't Tell Me"
+    },
+    {
+     "artist": "Blue Öyster Cult",
+     "title": "Shooting Shark"
+    },
+    {
+     "artist": "Bryan Ferry",
+     "title": "Kiss And Tell"
+    },
+    {
+     "artist": "CHANGE",
+     "title": "Hold Tight"
+    },
+    {
+     "artist": "CHANGE",
+     "title": "Searching"
+    },
+    {
+     "artist": "CHINA CRISIS",
+     "title": "Working With Fire And Steel"
+    },
+    {
+     "artist": "CULTURE CLUB",
+     "title": "Miss Me Blind"
+    },
+    {
+     "artist": "CURIOSITY KILLED THE CAT",
+     "title": "Name And Number"
+    },
+    {
+     "artist": "DARYL HALL & JOHN OATES",
+     "title": "Crime Pays"
+    },
+    {
+     "artist": "DEPECHE MODE",
+     "title": "People Are People"
+    },
+    {
+     "artist": "DIRE STRAITS",
+     "title": "Money For Nothing"
+    },
+    {
+     "artist": "DONNA SUMMER",
+     "title": "She Works Hard For The Money"
+    },
+    {
+     "artist": "DONNA SUMMER",
+     "title": "State Of Independence"
+    },
+    {
+     "artist": "ECHO & THE BUNNYMEN",
+     "title": "Lips Like Sugar"
+    },
+    {
+     "artist": "ELTON JOHN",
+     "title": "Kiss The Bride"
+    },
+    {
+     "artist": "ERASURE",
+     "title": "Sometimes"
+    },
+    {
+     "artist": "FEARGAL SHARKEY",
+     "title": "A Good Heart"
+    },
+    {
+     "artist": "FINE YOUNG CANNIBALS",
+     "title": "Good Thing"
+    },
+    {
+     "artist": "Fox The Fox",
+     "title": "Precious Little Diamond"
+    },
+    {
+     "artist": "GENESIS",
+     "title": "Land Of Confusion"
+    },
+    {
+     "artist": "GENESIS",
+     "title": "Tonight, Tonight, Tonight"
+    },
+    {
+     "artist": "HOWARD JONES",
+     "title": "Things Can Only Get Better"
+    },
+    {
+     "artist": "HUEY LEWIS & THE NEWS",
+     "title": "I Want A New Drug"
+    },
+    {
+     "artist": "INFORMATION SOCIETY",
+     "title": "What's On Your Mind (Pure Energy)"
+    },
+    {
+     "artist": "JELLYBEAN FT. ELISA FIORILLO",
+     "title": "Who Found Who"
+    },
+    {
+     "artist": "JERMAINE STEWART",
+     "title": "We Don't Have To Take Our Clothes Off"
+    },
+    {
+     "artist": "JOE JACKSON",
+     "title": "Steppin' Out"
+    },
+    {
+     "artist": "JOHNNY HATES JAZZ",
+     "title": "Shattered Dreams"
+    },
+    {
+     "artist": "KANO",
+     "title": "Another Life"
+    },
+    {
+     "artist": "LAID BACK",
+     "title": "Bakerman"
+    },
+    {
+     "artist": "LAID BACK",
+     "title": "White Horse"
+    },
+    {
+     "artist": "LIONEL RICHIE",
+     "title": "All Night Long (All Night)"
+    },
+    {
+     "artist": "LIONEL RICHIE",
+     "title": "Dancing On The Ceiling"
+    },
+    {
+     "artist": "LIVING IN A BOX",
+     "title": "Blow The House Down"
+    },
+    {
+     "artist": "MATTHEW WILDER",
+     "title": "Break My Stride"
+    },
+    {
+     "artist": "Miami Sound Machine",
+     "title": "Dr. Beat"
+    },
+    {
+     "artist": "MISSING PERSONS",
+     "title": "Words"
+    },
+    {
+     "artist": "NAKED EYES",
+     "title": "When the Lights Go Out"
+    },
+    {
+     "artist": "NEW ORDER",
+     "title": "Thieves Like Us"
+    },
+    {
+     "artist": "ORCHESTRAL MANOEUVRES IN THE DARK",
+     "title": "If You Leave"
+    },
+    {
+     "artist": "PETE TOWNSHEND",
+     "title": "Let My Love Open The Door"
+    },
+    {
+     "artist": "PHIL COLLINS",
+     "title": "In The Air Tonight"
+    },
+    {
+     "artist": "PREFAB SPROUT",
+     "title": "Cars And Girls"
+    },
+    {
+     "artist": "PROPAGANDA",
+     "title": "Duel (Bittersweet)"
+    },
+    {
+     "artist": "RED 7",
+     "title": "Heartbeat"
+    },
+    {
+     "artist": "ROBERT PALMER",
+     "title": "I Didn't Mean To Turn You On"
+    },
+    {
+     "artist": "ROD STEWART",
+     "title": "Infatuation"
+    },
+    {
+     "artist": "SIMPLE MINDS",
+     "title": "Alive and Kicking"
+    },
+    {
+     "artist": "SIMPLE MINDS",
+     "title": "Love Song"
+    },
+    {
+     "artist": "SIMPLY RED",
+     "title": "Money's Too Tight (To Mention)"
+    },
+    {
+     "artist": "STANLEY CLARKE & GEORGE DUKE",
+     "title": "Winners"
+    },
+    {
+     "artist": "STEVE WINWOOD",
+     "title": "Valerie"
+    },
+    {
+     "artist": "STEVIE NICKS",
+     "title": "Rooms On Fire"
+    },
+    {
+     "artist": "STEVIE NICKS",
+     "title": "Wild Heart"
+    },
+    {
+     "artist": "STING",
+     "title": "If You Love Somebody Set Them Free"
+    },
+    {
+     "artist": "TALK TALK",
+     "title": "Talk Talk"
+    },
+    {
+     "artist": "TEARS FOR FEARS",
+     "title": "Head Over Heels"
+    },
+    {
+     "artist": "The Cars",
+     "title": "You Might Think"
+    },
+    {
+     "artist": "THE CURE",
+     "title": "Just Like Heaven"
+    },
+    {
+     "artist": "THE FLIRTS",
+     "title": "Passion"
+    },
+    {
+     "artist": "THE MOTELS",
+     "title": "Suddenly Last Summer"
+    },
+    {
+     "artist": "THE POINTER SISTERS",
+     "title": "Hot Together"
+    },
+    {
+     "artist": "THE POINTER SISTERS",
+     "title": "Neutron Dance"
+    },
+    {
+     "artist": "THE POLICE",
+     "title": "Driven To Tears"
+    },
+    {
+     "artist": "THE POLICE",
+     "title": "Walking On The Moon"
+    },
+    {
+     "artist": "THE SISTERS OF MERCY",
+     "title": "Lucretia My Reflection"
+    },
+    {
+     "artist": "THE THE",
+     "title": "This Is The Day"
+    },
+    {
+     "artist": "THE THOMPSON TWINS",
+     "title": "Love On Your Side"
+    },
+    {
+     "artist": "TINA TURNER",
+     "title": "Better Be Good To Me"
+    },
+    {
+     "artist": "TINA TURNER",
+     "title": "Steamy Windows"
+    },
+    {
+     "artist": "TINA TURNER",
+     "title": "We Don't Need Another Hero (Thunderdome)"
+    },
+    {
+     "artist": "WANG CHUNG",
+     "title": "Everybody Have Fun Tonight"
+    },
+    {
+     "artist": "WAX",
+     "title": "Bridge To Your Heart"
+    },
+    {
+     "artist": "YES",
+     "title": "Rhythm Of Love"
+    }
+   ]
+  },
+  {
+   "name": "Worldwide FM",
+   "confidence": "high",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "4HERO",
+     "title": "Star Chasers"
+    },
+    {
+     "artist": "ALEWYA",
+     "title": "Maktoub"
+    },
+    {
+     "artist": "ATMOS BLAQ",
+     "title": "Skhaftin Saka Fonque"
+    },
+    {
+     "artist": "ATMOS BLAQ / 4HERO",
+     "title": "Skhaftin Saka Fonque / Star Chasers"
+    },
+    {
+     "artist": "BOBBY CALDWELL",
+     "title": "What You Won't Do For Love"
+    },
+    {
+     "artist": "CHAMPION, BAKEY & JAMAKABI",
+     "title": "International Man"
+    },
+    {
+     "artist": "CHAZ JANKEL",
+     "title": "Glad to Know You (Todd Terje Re-Edit)"
+    },
+    {
+     "artist": "CLOUD ONE",
+     "title": "Atmosphere Strut"
+    },
+    {
+     "artist": "CLOUD ONE",
+     "title": "Atmosphere Strut (Part 1 & 2)"
+    },
+    {
+     "artist": "CRISTINA CAMARGO",
+     "title": "Moral Tem Hora (Ray Mang Edit)"
+    },
+    {
+     "artist": "CRISTINA CAMARGO",
+     "title": "Moral Tem Hora (Ray Mang Edit)"
+    },
+    {
+     "artist": "D'ANGELO",
+     "title": "KAMIKAZI"
+    },
+    {
+     "artist": "DIGABLE PLANETS",
+     "title": "Rebirth of Slick (Cool Like Dat)"
+    },
+    {
+     "artist": "DONGURIZU",
+     "title": "Yoppa Ratta"
+    },
+    {
+     "artist": "ELEMENTS OF LIFE FT. RAHSAAN PATTERSON & CINDY MIZELLE",
+     "title": "Love From The Sun (Louie Vega's We Out Here Edit)"
+    },
+    {
+     "artist": "FACTA FT. WARRIOR QUEEN & KILLA P",
+     "title": "SLoPE VIP"
+    },
+    {
+     "artist": "FEJAO & SAMTHEMAN",
+     "title": "Brasil da Capoeira"
+    },
+    {
+     "artist": "FLOATING POINTS",
+     "title": "DEL ORO"
+    },
+    {
+     "artist": "FOOD COURTS",
+     "title": "If There Are Health Food Stores, Then What Is Everything Else?"
+    },
+    {
+     "artist": "GARFIELD FLEMING",
+     "title": "Don't Send Me Away"
+    },
+    {
+     "artist": "GILLES PETERSON'S HAVANA CULTURA BAND FT. DANAY & CARINA",
+     "title": "Think Twice (4hero Remix)"
+    },
+    {
+     "artist": "IZCO FT. REEK0 & S.I",
+     "title": "Japan Greatly"
+    },
+    {
+     "artist": "JAMIROQUAI",
+     "title": "Smile"
+    },
+    {
+     "artist": "JAZZTRONIK",
+     "title": "SAMURAI (SAMBA HOUSE REMIX)"
+    },
+    {
+     "artist": "JESSE JOHNSON & DĀM FUNK",
+     "title": "Stone Kold Krazy Luuv"
+    },
+    {
+     "artist": "KASSA OVERALL",
+     "title": "REBIRTH OF SLICK (COOL LIKE DAT)"
+    },
+    {
+     "artist": "LITTLE SIMZ FT. OBONGJAYAR",
+     "title": "Lion"
+    },
+    {
+     "artist": "LUIS ANTONIO DÍAZ Y SU SOL BANDA",
+     "title": "Qué es lo que Haré Para Amarte"
+    },
+    {
+     "artist": "MALA & MAGUGU",
+     "title": "Militant Don"
+    },
+    {
+     "artist": "MOSES IDEKA & PHIL",
+     "title": "Do It For You"
+    },
+    {
+     "artist": "MYSTERY TIIME",
+     "title": "Thank You Deeply"
+    },
+    {
+     "artist": "MYSTERY TIIME",
+     "title": "Thank You Deeply"
+    },
+    {
+     "artist": "NARASIMHA",
+     "title": "Fanga"
+    },
+    {
+     "artist": "OMAR APOLLO",
+     "title": "NO ME BUSQUES"
+    },
+    {
+     "artist": "QUEEN YAHNA",
+     "title": "Ain't It Time"
+    },
+    {
+     "artist": "QUEEN YAHNA",
+     "title": "Ain't It Time"
+    },
+    {
+     "artist": "ROBERTA FLACK",
+     "title": "The First Time Ever I Saw Your Face"
+    },
+    {
+     "artist": "ROY AYERS, THUNDERCAT & OM'MAS KEITH",
+     "title": "McDonald's Drug Money"
+    },
+    {
+     "artist": "RUPA",
+     "title": "Aaj Shanibar"
+    },
+    {
+     "artist": "SRIRAJAH SOUND SYSTEM FT. MOLAM INTENG KEAWBUALA",
+     "title": "Si Phan Don Lovers Rock"
+    },
+    {
+     "artist": "TEENA MARIE",
+     "title": "I'm A Sucker For Your Love"
+    },
+    {
+     "artist": "THE CRUSADERS",
+     "title": "Free as the Wind"
+    },
+    {
+     "artist": "ZENA",
+     "title": "MY LOVE YOUR LOVE"
+    }
+   ]
+  },
+  {
+   "name": "Podcasts",
+   "confidence": "high",
+   "kind": "talk",
+   "tracks": [
+    {
+     "artist": "",
+     "title": "Sucked Into a Girl-Pool"
+    },
+    {
+     "artist": "Drunk Kings",
+     "title": "Episode #402 - Family"
+    },
+    {
+     "artist": "Drunk Kings",
+     "title": "Episode #403 - The Real Dimez"
+    },
+    {
+     "artist": "Drunk Kings",
+     "title": "Episode #404 - DWNPLY"
+    },
+    {
+     "artist": "Drunk Kings",
+     "title": "Episode #405 - Wax"
+    },
+    {
+     "artist": "Drunk Kings",
+     "title": "Episode #406 - Stevie J"
+    },
+    {
+     "artist": "Final Act",
+     "title": "I Was In a Titty Bar"
+    },
+    {
+     "artist": "Final Act",
+     "title": "Juggling with Dog Turds"
+    },
+    {
+     "artist": "Final Act",
+     "title": "Meltdown"
+    },
+    {
+     "artist": "Fuck, Marry, Murder",
+     "title": "Bohan Beach Killer"
+    },
+    {
+     "artist": "Fuck, Marry, Murder",
+     "title": "Brenda Strokes"
+    },
+    {
+     "artist": "Fuck, Marry, Murder",
+     "title": "Crime Couples"
+    },
+    {
+     "artist": "Fuck, Marry, Murder",
+     "title": "Eddie Low"
+    },
+    {
+     "artist": "Fuck, Marry, Murder",
+     "title": "Fatal Incursion"
+    },
+    {
+     "artist": "Fuck, Marry, Murder",
+     "title": "Russo Assassination"
+    },
+    {
+     "artist": "The Safe Trap",
+     "title": "Episode #021 - Countdown to Lockdown"
+    },
+    {
+     "artist": "The Safe Trap",
+     "title": "Episode #022 - The Alchemist"
+    },
+    {
+     "artist": "The Safe Trap",
+     "title": "Episode #023 - Too Late Now"
+    },
+    {
+     "artist": "Vice City True Stories",
+     "title": "Episode #047 - Camila Fuentes"
+    },
+    {
+     "artist": "Vice City True Stories",
+     "title": "Episode #048 - The Last Frontier"
+    }
+   ]
+  },
+  {
+   "name": "Talk shows",
+   "confidence": "medium",
+   "kind": "talk",
+   "tracks": [
+    {
+     "artist": "ASK DR. NITA",
+     "title": ""
+    },
+    {
+     "artist": "EL OTRO LADO",
+     "title": ""
+    },
+    {
+     "artist": "Hit The Bricks",
+     "title": ""
+    },
+    {
+     "artist": "SHE GOT ASSETS",
+     "title": ""
+    },
+    {
+     "artist": "The Richard Bastion Show",
+     "title": ""
+    }
+   ]
+  },
+  {
+   "name": "Unassigned (house / techno DJ set)",
+   "confidence": "low",
+   "kind": "music",
+   "tracks": [
+    {
+     "artist": "ADANA TWINS FT. GLOWAL",
+     "title": "My Computer"
+    },
+    {
+     "artist": "ARGOMAN",
+     "title": "Chimicalissimo"
+    },
+    {
+     "artist": "BARRY CAN'T SWIM",
+     "title": "Return To Bhibo"
+    },
+    {
+     "artist": "BOB MOSES",
+     "title": "Nothing But You (DJ Tennis Remix)"
+    },
+    {
+     "artist": "CAJMERE FT. DAJAE",
+     "title": "Brighter Days (Marco Lys Remix)"
+    },
+    {
+     "artist": "DAPHNI",
+     "title": "Ye Ye"
+    },
+    {
+     "artist": "DJ KOZE",
+     "title": "XTC"
+    },
+    {
+     "artist": "DOM DOLLA & SOLOMUN",
+     "title": "Damn"
+    },
+    {
+     "artist": "FOUR TET",
+     "title": "Baby (Tony Romera Remix)"
+    },
+    {
+     "artist": "JADEN THOMPSON & RAMPA FT. NAFE SMALLZ",
+     "title": "Personal"
+    },
+    {
+     "artist": "JIMI JULES & BLACK COFFEE",
+     "title": "Trippy Yeah"
+    },
+    {
+     "artist": "JUNIOR JACK & TUBE & BERGER",
+     "title": "E Samba 2018"
+    },
+    {
+     "artist": "KETTAMA & CHRIS STASSY",
+     "title": "Don't Play Around"
+    },
+    {
+     "artist": "LANA DEL REY",
+     "title": "West Coast (Solomun Remix)"
+    },
+    {
+     "artist": "MICHAEL BIBI & KINAHAU FT. AUDIO BULLYS",
+     "title": "Different Side"
+    },
+    {
+     "artist": "NOTRE DAME",
+     "title": "Yumi"
+    },
+    {
+     "artist": "PAWSA FT. NATE DOGG",
+     "title": "Pick Up The Phone"
+    },
+    {
+     "artist": "PRYDA",
+     "title": "Armed"
+    },
+    {
+     "artist": "RENATO COHEN",
+     "title": "Bismuth"
+    },
+    {
+     "artist": "RÓISÍN MURPHY",
+     "title": "Simulation (Mano Le Tough Remix)"
+    },
+    {
+     "artist": "SG LEWIS & DJ SEINFELD",
+     "title": "Simple Times"
+    },
+    {
+     "artist": "SKREAM & FLETCH",
+     "title": "Lost Without You"
+    },
+    {
+     "artist": "ÂME",
+     "title": "Rej"
+    }
+   ]
+  }
+ ]
+}
