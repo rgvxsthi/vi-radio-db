@@ -1,17 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="favicon-title">
   <title id="favicon-title">VI Radio DB</title>
-  <defs>
-    <linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ff8a5b"/>
-      <stop offset="0.5" stop-color="#e9457f"/>
-      <stop offset="1" stop-color="#6d3fc7"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="16" fill="url(#sunset)"/>
-  <!-- Same dial as logo.svg, with heavier strokes and no small ticks so it reads at 16px. -->
-  <g fill="none" stroke="#fff" stroke-linecap="round">
-    <path d="M11 42a21 21 0 0 1 42 0" stroke-width="6"/>
-    <path d="M32 42l10-17.3" stroke-width="6"/>
+  <!-- Same dial as logo.svg with heavier strokes and no ticks, so it reads at 16px. -->
+  <rect width="64" height="64" rx="4" fill="#c8006a"/>
+  <g fill="none" stroke="#fff">
+    <path d="M10 44a22 22 0 0 1 44 0" stroke-width="7"/>
+    <path d="M32 44l11-19" stroke-width="7"/>
   </g>
-  <circle cx="32" cy="42" r="6.5" fill="#fff"/>
+  <rect x="25" y="37" width="14" height="14" fill="#fff"/>
 </svg>
